@@ -1,0 +1,517 @@
+test4
+dataset: kdd
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1282)
+after kitsune is  0.16535705  and acc is  0.0 %
+after dnn acc is 0.99
+Memory used: 456.57 MB
+Time used: 0.93 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2632)
+after kitsune is  0.70022905  and acc is  100.0 %
+after dnn acc is 0.31
+Memory used: 456.85 MB
+Time used: 1.02 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2796)
+after kitsune is  0.7753917  and acc is  100.0 %
+after dnn acc is 1.0
+Memory used: 456.94 MB
+Time used: 0.93 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2774)
+after kitsune is  0.7547948  and acc is  100.0 %
+after dnn acc is 0.98
+Memory used: 457.49 MB
+Time used: 0.90 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1282)
+after kitsune is  0.16504821  and acc is  0.0 %
+after dnn acc is 0.99
+Memory used: 458.74 MB
+Time used: 1.06 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1642)
+after kitsune is  0.10598169  and acc is  0.0 %
+after dnn acc is 0.05
+Memory used: 456.44 MB
+Time used: 0.87 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2055)
+after kitsune is  0.21217008  and acc is  16.0 %
+after dnn acc is 0.05
+Memory used: 458.14 MB
+Time used: 1.05 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2368)
+after kitsune is  0.4827833  and acc is  85.0 %
+after dnn acc is 0.47
+Memory used: 564.49 MB
+Time used: 1.11 s
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1202)
+after kitsune is  0.24576573
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1156)
+after kitsune is  1.0240799
+after dnn acc is 7.000000000000001 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1200)
+after kitsune is  1.0348049
+after dnn acc is 100.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.0964)
+after kitsune is  1.0548487
+after dnn acc is 100.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1139)
+after kitsune is  0.24698982
+after dnn acc is 21.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1275)
+after kitsune is  0.27312052
+after dnn acc is 24.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1354)
+after kitsune is  0.38786831
+after dnn acc is 6.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1224)
+after kitsune is  0.6983604
+after dnn acc is 50.0 %
+dataset: mirai
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1246)
+after kitsune is  0.23211311  and acc is  0.0 %
+after dnn acc is 0.9
+Memory used: 458.77 MB
+Time used: 1.37 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2788)
+after kitsune is  0.4407091  and acc is  100.0 %
+after dnn acc is 1.0
+Memory used: 458.85 MB
+Time used: 1.10 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2834)
+after kitsune is  0.48014045  and acc is  100.0 %
+after dnn acc is 1.0
+Memory used: 459.04 MB
+Time used: 1.35 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2870)
+after kitsune is  0.4628455  and acc is  99.0 %
+after dnn acc is 0.97
+Memory used: 458.88 MB
+Time used: 1.32 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1276)
+after kitsune is  0.2359363  and acc is  0.0 %
+after dnn acc is 0.94
+Memory used: 458.56 MB
+Time used: 1.71 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1969)
+after kitsune is  0.22490545  and acc is  0.0 %
+after dnn acc is 1.0
+Memory used: 458.76 MB
+Time used: 1.28 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2390)
+after kitsune is  0.2779966  and acc is  9.0 %
+after dnn acc is 1.0
+Memory used: 458.11 MB
+Time used: 1.26 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2534)
+after kitsune is  0.27459916  and acc is  14.000000000000002 %
+after dnn acc is 0.98
+Memory used: 458.55 MB
+Time used: 1.26 s
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1378)
+after kitsune is  0.4259567
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1163)
+after kitsune is  0.71456915
+after dnn acc is 75.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1256)
+after kitsune is  0.7263271
+after dnn acc is 100.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1139)
+after kitsune is  0.7477949
+after dnn acc is 19.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1431)
+after kitsune is  0.37750205
+after dnn acc is 24.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1361)
+after kitsune is  0.40496755
+after dnn acc is 63.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1327)
+after kitsune is  0.5534069
+after dnn acc is 47.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1386)
+after kitsune is  0.58243036
+after dnn acc is 43.0 %
+dataset: cic2017
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1598)
+after kitsune is  0.122031085  and acc is  91.0 %
+after dnn acc is 0.0
+Memory used: 459.33 MB
+Time used: 1.77 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2692)
+after kitsune is  0.81860316  and acc is  100.0 %
+after dnn acc is 0.33
+Memory used: 458.80 MB
+Time used: 1.40 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2729)
+after kitsune is  0.83758026  and acc is  100.0 %
+after dnn acc is 0.0
+Memory used: 458.73 MB
+Time used: 1.51 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2796)
+after kitsune is  0.9066441  and acc is  100.0 %
+after dnn acc is 0.0
+Memory used: 458.94 MB
+Time used: 1.39 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1636)
+after kitsune is  0.115776025  and acc is  90.0 %
+after dnn acc is 0.0
+Memory used: 459.33 MB
+Time used: 1.48 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1733)
+after kitsune is  0.14175299  and acc is  78.0 %
+after dnn acc is 0.0
+Memory used: 458.54 MB
+Time used: 1.35 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2354)
+after kitsune is  0.43919688  and acc is  100.0 %
+after dnn acc is 0.01
+Memory used: 458.88 MB
+Time used: 1.53 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2481)
+after kitsune is  0.4039812  and acc is  100.0 %
+after dnn acc is 0.17
+Memory used: 459.05 MB
+Time used: 1.39 s
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1334)
+after kitsune is  0.2907625
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1182)
+after kitsune is  1.1786126
+after dnn acc is 9.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1140)
+after kitsune is  1.2697769
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1154)
+after kitsune is  1.2405981
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1441)
+after kitsune is  0.39588982
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1340)
+after kitsune is  0.45486557
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1352)
+after kitsune is  0.8097961
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1399)
+after kitsune is  0.73712194
+after dnn acc is 0.0 %
+dataset: unsw
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.0863)
+after kitsune is  0.031898316  and acc is  0.0 %
+after dnn acc is 0.81
+Memory used: 452.94 MB
+Time used: 0.70 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2703)
+after kitsune is  0.48879176  and acc is  100.0 %
+after dnn acc is 0.12
+Memory used: 454.30 MB
+Time used: 0.76 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2809)
+after kitsune is  0.537048  and acc is  100.0 %
+after dnn acc is 0.83
+Memory used: 454.05 MB
+Time used: 0.75 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2830)
+after kitsune is  0.56867975  and acc is  99.0 %
+after dnn acc is 0.95
+Memory used: 453.48 MB
+Time used: 0.99 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.0866)
+after kitsune is  0.02820236  and acc is  0.0 %
+after dnn acc is 0.55
+Memory used: 453.54 MB
+Time used: 0.81 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.0684)
+after kitsune is  0.01546354  and acc is  0.0 %
+after dnn acc is 0.36
+Memory used: 453.65 MB
+Time used: 0.75 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.1911)
+after kitsune is  0.13321619  and acc is  1.0 %
+after dnn acc is 0.39
+Memory used: 452.96 MB
+Time used: 0.85 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+- Torchattacks
+dis:  tensor(0.2175)
+after kitsune is  0.17089562  and acc is  1.0 %
+after dnn acc is 0.15
+Memory used: 453.95 MB
+Time used: 0.77 s
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=0, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1263)
+after kitsune is  0.12920777
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1315)
+after kitsune is  0.6739619
+after dnn acc is 2.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1130)
+after kitsune is  0.7876996
+after dnn acc is 65.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1065)
+after kitsune is  0.8299453
+after dnn acc is 79.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=2, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1242)
+after kitsune is  0.11284317
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=3, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1238)
+after kitsune is  0.10604066
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=4, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1365)
+after kitsune is  0.3432032
+after dnn acc is 0.0 %
+True
+torchattacks 3.4.1
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=5, alpha=1, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+dis:  tensor(0.1329)
+after kitsune is  0.38880625
+after dnn acc is 2.0 %

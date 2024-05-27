@@ -1,2 +1,0 @@
-Round   0, Average loss 3.132, Acc 0.786
-1.034865379333496 s

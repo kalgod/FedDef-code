@@ -77,6 +77,7 @@ alpha=int(opt.alpha*100)
 
 images=x
 labels=torch.from_numpy(result-result)
+net2=net2.to('cpu')
 model=net1
 
 print("- Torchattacks")
@@ -90,19 +91,19 @@ end = datetime.datetime.now()
 
 gen_z=adv_images
 
-print(x[0],"\n",gen_z[0])
+# print(x[0],"\n",gen_z[0])
 print("dis: ",torch.sqrt(torch.mean((adv_images-images)**2)))
 
-results=net1.execute(x)
-if opt.dataset=="kdd": acc=np.mean(results>0.3)
-elif opt.dataset=="mirai": acc=np.mean(results>0.35)
-elif opt.dataset=="cic2017": acc=np.mean(results>0.08)
-else: acc=np.mean(results>0.3)
-print("after kitsune is ",np.mean(results)," and acc is ",100*acc,"%")
-log_probs=net2(x)
-result=np.argmax(log_probs.detach().numpy(),axis=1)
-result[result!=0]=1
-print("pre dnn acc is",np.mean(result),"\n")
+# results=net1.execute(x)
+# if opt.dataset=="kdd": acc=np.mean(results>0.3)
+# elif opt.dataset=="mirai": acc=np.mean(results>0.35)
+# elif opt.dataset=="cic2017": acc=np.mean(results>0.08)
+# else: acc=np.mean(results>0.3)
+# print("after kitsune is ",np.mean(results)," and acc is ",100*acc,"%")
+# log_probs=net2(x)
+# result=np.argmax(log_probs.detach().numpy(),axis=1)
+# result[result!=0]=1
+# print("pre dnn acc is",np.mean(result),"\n")
 
 results=net1.execute(gen_z)
 if opt.dataset=="kdd": acc=np.mean(results>0.3)

@@ -78,6 +78,7 @@ alpha=int(opt.alpha*100)
 
 images=x
 labels=torch.from_numpy(result-result)
+net2=net2.to('cpu')
 model=net2
 #总体上，FGSM>AutoPGD>PGD的acc，但是autopgd不稳定，因为dlr loss。
 #cw攻击中有特殊逻辑，当adv_images攻击失败，就不会更新最后的对抗样本，所以如果100次生成后还没有攻击成功，那么就会维持原来的样本，因此距离可能=0（我们的防御），而对于其他的防御，在cic2017和unsw数据集中，早就acc=0，所以best L2=0，所以也不会更新了
@@ -87,15 +88,13 @@ model=net2
 #CIC2017数据集中，普通防御下，重构的样本本身Acc=0，比较接近正常样本的特征，我们的数据就更远离正常样本。这个数据集本身就容易攻击，所以很多距离=0
 #普通防御下，重构的异常数据后，本身就接近正常样本了，所以dnn的初始Acc就很低，所以距离即使=0，acc也很低
 
-#改KDD的alpha=1的acc结果，cic2017+UNSW的alpha=0.5，
-
-print("- Torchattacks")
+# print("- Torchattacks")
 atk = torchattacks.PGD(model, eps=40/255, alpha=6/255, steps=100, random_start=False)#cic是4/255+2/255，其他的是40/255+6/255
 #atk = torchattacks.APGDT(model, norm='Linf', eps=40/255, steps=100,verbose=False)#cic2017-4/255,其他40/255
 #atk = torchattacks.FAB(model, norm='Linf', eps=40/255, steps=100, n_restarts=1,alpha_max=0.1, eta=1.05, beta=0.9, verbose=True, seed=0,multi_targeted=False, n_classes=23)
 #atk = torchattacks.DeepFool(model, steps=50, overshoot=0.02,eps=400/255) #cic2017-4/255,其他40/255
 #atk = torchattacks.CW(model, c=0.01, kappa=0, steps=100, lr=0.1)
-#atk = torchattacks.FGSM(model, eps=40/255) #只有cic-2017-4/255，其他40/255
+# atk = torchattacks.FGSM(model, eps=40/255) #只有cic-2017-4/255，其他40/255
 
 #from advertorch.attacks.fast_adaptive_boundary import *
 #adversary = FABAttack(model,norm='Linf',n_restarts=1,n_iter=100,eps=None,alpha_max=0.1,eta=1.05,beta=0.9,loss_fn=None,verbose=True)
@@ -108,15 +107,15 @@ end = datetime.datetime.now()
 
 gen_z=adv_images
 
-print(x[0],gen_z[0])
+# print(x[0],gen_z[0])
 print("dis: ",torch.sqrt(torch.mean((adv_images-images)**2)))
 
-results=net1.execute(x)
-print("pre kitsune is ",np.mean(results))
-log_probs=net2(x)
-result=np.argmax(log_probs.detach().numpy(),axis=1)
-result[result!=0]=1
-print("pre dnn acc is",100*np.mean(result),"%\n")
+# results=net1.execute(x)
+# print("pre kitsune is ",np.mean(results))
+# log_probs=net2(x)
+# result=np.argmax(log_probs.detach().numpy(),axis=1)
+# result[result!=0]=1
+# print("pre dnn acc is",100*np.mean(result),"%\n")
 
 results=net1.execute(gen_z)
 print("after kitsune is ",np.mean(results))

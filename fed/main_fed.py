@@ -18,7 +18,7 @@ import psutil
 from sklearn.metrics import roc_auc_score
 import KitNET
 
-print(torch.cuda.is_available())
+# print(torch.cuda.is_available())
 
 def split_data(data,ratio):
     np.random.seed(1)
@@ -116,34 +116,35 @@ def metrics(TP,FP,TN,FN):
 if __name__ == '__main__':
     # parse args
     args=parse_arg()
+    print(args)
 
     device = torch.device(args.device)
     # load dataset and split users
     if args.dataset == 'kdd':
         x=np.load(file="./data/kdd.npy",allow_pickle=True)
-        print(x,x.shape)
+        # print(x,x.shape)
         label=x[:,-1]
         train_data,test_data=split_data(data=x,ratio=0.3)
-        print(train_data.shape,test_data.shape)
+        # print(train_data.shape,test_data.shape)
         data_num=len(train_data)//args.num_users
         discrete=[1,2,3,6,11,20,21]
         #for i in range(23): print(np.sum(label==i))
     
     if args.dataset == 'mirai':
         x=np.load(file="./data/mirai.npy",allow_pickle=True)
-        print(x,x.shape)
+        # print(x,x.shape)
         label=x[:,-1]
         train_data,test_data=split_data(data=x,ratio=0.3)
-        print(train_data.shape,test_data.shape)
+        # print(train_data.shape,test_data.shape)
         data_num=len(train_data)//args.num_users
         discrete=[]
         
     if args.dataset == 'cic2017':
         x=np.load(file="./data/cic2017.npy",allow_pickle=True)
-        print(x.shape)
+        # print(x.shape)
         label=x[:,-1]
         train_data,test_data=split_data(data=x,ratio=0.3)
-        print(train_data.shape,test_data.shape)
+        # print(train_data.shape,test_data.shape)
         data_num=len(train_data)//args.num_users
         discrete=[]
     
@@ -151,10 +152,10 @@ if __name__ == '__main__':
         train_data=np.load(file="./data/unsw_train.npy",allow_pickle=True)
         test_data=np.load(file="./data/unsw_test.npy",allow_pickle=True)
         x=np.vstack((train_data,test_data))
-        print(x.shape)
+        # print(x.shape)
         label=x[:,-1]
         train_data,test_data=split_data(data=x,ratio=0.3)
-        print(train_data.shape,test_data.shape)
+        # print(train_data.shape,test_data.shape)
         data_num=len(train_data)//args.num_users
         discrete=[]
         
@@ -163,7 +164,7 @@ if __name__ == '__main__':
     # build model
     if args.model == 'dnn':
         num_class=get_key(label)
-        print(len(num_class))
+        # print(len(num_class))
         net_glob = DNN(x.shape[1]-1,len(num_class))
 
     if args.load_model==1: 
@@ -174,7 +175,7 @@ if __name__ == '__main__':
                 args.dataset,args.model,args.defense,alpha), 'rb') as f: net_glob=pickle.load(f)
                 
     net_glob.to(device)
-    print(net_glob,len(list(net_glob.parameters())))
+    # print(net_glob,len(list(net_glob.parameters())))
     #if args.dataset=='cifar': net_glob.train()
 
     # copy weights
@@ -182,7 +183,7 @@ if __name__ == '__main__':
 
     # training
 
-    print("Aggregation over all clients")
+    # print("Aggregation over all clients")
     w_locals = [w_glob for i in range(args.num_users)]
     data_print = open("TrainTimeRecord.txt",'w',encoding="utf-8")
     
@@ -206,7 +207,7 @@ if __name__ == '__main__':
         for i in range(args.num_users):
             data_non=generate_non(train_data,args,len(num_class),i)
             result_data.append(data_non)
-            print("User ",i+1,": ",np.sort(get_key(data_non[:,-1])))
+            # print("User ",i+1,": ",np.sort(get_key(data_non[:,-1])))
             
     start=time.time()
     
@@ -271,7 +272,7 @@ if __name__ == '__main__':
             if i==0:
                 score1_plot.append(score1.numpy())
                 score2_plot.append(score2.numpy())
-            print("and score 1 is",score1.numpy(),"and score 2 is",score2.numpy(),"and true label is",train_one_hot.numpy())
+            print("score 1 is",score1.numpy(),"and score 2 is",score2.numpy())
             #print("and score 1 is",score1.numpy(),"and score 2 is",score2.numpy(),"and train_x is\n",train_x.numpy(),"\n\nand recon_x is\n",recon_x.numpy(),"\n\nand train_x_def is\n",train_x_def.numpy(),"and train_y is\n",train_one_hot.numpy(),"\n\nand recon_y is\n",recon_y.numpy(),"\n\nand train_y_def is\n",train_one_hot_def.numpy())
             print("and score 1 is",score1.numpy(),"and score 2 is",score2.numpy(),"and train_x is\n",train_x.numpy(),"\n\nand recon_x is\n",recon_x.numpy(),"\n\nand train_x_def is\n",train_x_def.numpy(),"and train_y is\n",train_one_hot.numpy(),"\n\nand recon_y is\n",recon_y.numpy(),"\n\nand train_y_def is\n",train_one_hot_def.numpy(),file=data_print)
         # update global weights
@@ -322,7 +323,7 @@ if __name__ == '__main__':
     print(time_elapsed,"s",file=data_print)
     process = psutil.Process()
     memory_used = process.memory_info().rss /(1024*1024)
-    print("Memory used: {:.2f} MB".format(memory_used))
+    print("Memory used: {:.2f} MB\n".format(memory_used))
     
     alpha=int(args.alpha*100)
     

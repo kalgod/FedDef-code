@@ -1,0 +1,17 @@
+test3-q
+dataset: kdd
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497349] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.764005
+[Epoch 31/300] [D loss: -0.000124] [G loss: 0.502011] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.059768144
+[Epoch 61/300] [D loss: 0.000050] [G loss: 0.500281] [ACC1 : 100/300=0.333333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.039115302
+[Epoch 91/300] [D loss: 0.000021] [G loss: 0.500392] [ACC1 : 53/300=0.176667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.029659722

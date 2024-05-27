@@ -1,0 +1,197 @@
+test1
+dataset: kdd
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.007, Acc 0.992
+0.9915101528167725 s
+Memory used: 1309.25 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.022, Acc 0.987
+1.6392896175384521 s
+Memory used: 1548.99 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.029, Acc 0.983
+1.6856541633605957 s
+Memory used: 1540.96 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.024, Acc 0.985
+1.709657907485962 s
+Memory used: 1539.01 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.015, Acc 0.992
+1.051917314529419 s
+Memory used: 1341.33 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.061, Acc 0.990
+1.2730998992919922 s
+Memory used: 1380.88 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.047, Acc 0.982
+1.07602858543396 s
+Memory used: 1308.92 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.197, Acc 0.962
+1.1061129570007324 s
+Memory used: 1313.21 MB
+
+dataset: mirai
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.923
+1.1371307373046875 s
+Memory used: 1742.88 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.235, Acc 0.921
+1.5270607471466064 s
+Memory used: 1985.25 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.922
+1.5214617252349854 s
+Memory used: 1986.34 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.921
+1.6874568462371826 s
+Memory used: 1995.00 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.923
+1.1552996635437012 s
+Memory used: 1779.12 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.922
+1.3371624946594238 s
+Memory used: 1814.76 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.213, Acc 0.922
+1.106644630432129 s
+Memory used: 1743.90 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.043, Acc 0.921
+1.3132984638214111 s
+Memory used: 1744.56 MB
+
+dataset: cic2017
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.038, Acc 0.982
+0.9985573291778564 s
+Memory used: 1362.87 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.970
+1.428192138671875 s
+Memory used: 1598.96 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.695, Acc 0.967
+1.339918613433838 s
+Memory used: 1601.13 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.009, Acc 0.970
+1.3369512557983398 s
+Memory used: 1603.12 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.002, Acc 0.978
+1.0238430500030518 s
+Memory used: 1401.00 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.970
+1.3554158210754395 s
+Memory used: 1436.70 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.003, Acc 0.971
+0.9318099021911621 s
+Memory used: 1363.83 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.088, Acc 0.964
+1.121361255645752 s
+Memory used: 1366.11 MB
+
+dataset: unsw
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.889, Acc 0.736
+0.9233555793762207 s
+Memory used: 1192.56 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.032, Acc 0.720
+1.3832218647003174 s
+Memory used: 1435.98 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 2.248, Acc 0.711
+1.5900483131408691 s
+Memory used: 1422.40 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 1.161, Acc 0.711
+1.3328502178192139 s
+Memory used: 1423.29 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 3.518, Acc 0.714
+0.9141590595245361 s
+Memory used: 1225.77 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.000, Acc 0.696
+1.2416155338287354 s
+Memory used: 1264.69 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.011, Acc 0.701
+0.9287416934967041 s
+Memory used: 1193.55 MB
+
+True
+Namespace(epochs=1, num_users=1, local_ep=1, local_bs=1, lr=0.015, eval=1, iid=0, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+Round   0, Average loss 0.108, Acc 0.690
+1.0667030811309814 s
+Memory used: 1196.77 MB
+

@@ -1,0 +1,6 @@
+test2-q
+dataset: kdd
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00096354] and score 2 is 1.0
+Round   0, Average loss 3.008, Acc 0.568

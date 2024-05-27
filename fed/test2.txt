@@ -1,0 +1,1930 @@
+test2
+dataset: kdd
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00108415] and score 2 is 1.0
+Round   0, Average loss 3.148, Acc 0.000
+score 1 is [0.00065855] and score 2 is 1.0
+Round   1, Average loss 3.165, Acc 0.000
+score 1 is [0.00058645] and score 2 is 1.0
+Round   2, Average loss 3.148, Acc 0.000
+score 1 is [0.00025158] and score 2 is 1.0
+Round   3, Average loss 3.148, Acc 0.000
+score 1 is [0.00047369] and score 2 is 1.0
+Round   4, Average loss 3.165, Acc 0.000
+9.387409925460815 s
+Memory used: 1526.58 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [2.0353516e-08] and score 2 is 1.0
+Round   0, Average loss 3.237, Acc 0.000
+score 1 is [2.9075435e-09] and score 2 is 1.0
+Round   1, Average loss 3.236, Acc 0.000
+score 1 is [2.0353516e-08] and score 2 is 1.0
+Round   2, Average loss 3.237, Acc 0.000
+score 1 is [5.815176e-09] and score 2 is 1.0
+Round   3, Average loss 3.112, Acc 0.000
+score 1 is [1.818102e-10] and score 2 is 1.0
+Round   4, Average loss 3.111, Acc 0.000
+8.974921941757202 s
+Memory used: 1572.56 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.5472379] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.992
+score 1 is [0.46067128] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.992
+score 1 is [0.52967167] and score 2 is 0.0
+Round   2, Average loss 0.005, Acc 0.992
+score 1 is [0.5151173] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.992
+score 1 is [0.5951065] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.992
+10.518581867218018 s
+Memory used: 1531.23 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [2.7551034e-10] and score 2 is 0.0
+Round   0, Average loss 0.017, Acc 0.992
+score 1 is [0.] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.992
+score 1 is [2.9075435e-09] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.992
+score 1 is [0.] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.992
+score 1 is [5.815797e-09] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.992
+9.197446823120117 s
+Memory used: 1529.97 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.7310289] and score 2 is 0.0
+Round   0, Average loss 3.126, Acc 0.003
+score 1 is [0.8252742] and score 2 is 0.0
+Round   1, Average loss 3.126, Acc 0.003
+score 1 is [0.9016038] and score 2 is 0.0
+Round   2, Average loss 3.147, Acc 0.003
+score 1 is [0.73044574] and score 2 is 0.0
+Round   3, Average loss 3.229, Acc 0.003
+score 1 is [0.8162368] and score 2 is 0.0
+Round   4, Average loss 3.191, Acc 0.003
+11.429283857345581 s
+Memory used: 1692.49 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.86972547] and score 2 is 0.0
+Round   0, Average loss 3.157, Acc 0.003
+score 1 is [0.88150585] and score 2 is 0.0
+Round   1, Average loss 3.153, Acc 0.003
+score 1 is [0.9247536] and score 2 is 0.0
+Round   2, Average loss 3.158, Acc 0.003
+score 1 is [0.93347985] and score 2 is 0.0
+Round   3, Average loss 3.187, Acc 0.003
+score 1 is [0.84176505] and score 2 is 0.0
+Round   4, Average loss 3.051, Acc 0.003
+12.107640266418457 s
+Memory used: 1709.39 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.53390783] and score 2 is 1.0
+Round   0, Average loss 0.001, Acc 0.987
+score 1 is [0.49220815] and score 2 is 0.0
+Round   1, Average loss 0.001, Acc 0.987
+score 1 is [0.49547824] and score 2 is 1.0
+Round   2, Average loss 0.020, Acc 0.987
+score 1 is [0.4371061] and score 2 is 0.0
+Round   3, Average loss 0.001, Acc 0.987
+score 1 is [0.4950181] and score 2 is 1.0
+Round   4, Average loss 0.038, Acc 0.987
+10.422708511352539 s
+Memory used: 1672.90 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.47934642] and score 2 is 0.0
+Round   0, Average loss 0.080, Acc 0.987
+score 1 is [0.51130325] and score 2 is 0.0
+Round   1, Average loss 0.013, Acc 0.987
+score 1 is [0.5974485] and score 2 is 0.0
+Round   2, Average loss 0.125, Acc 0.987
+score 1 is [0.60378337] and score 2 is 0.0
+Round   3, Average loss 0.001, Acc 0.987
+score 1 is [0.67430556] and score 2 is 1.0
+Round   4, Average loss 0.016, Acc 0.987
+11.187719345092773 s
+Memory used: 1704.16 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.91079545] and score 2 is 0.0
+Round   0, Average loss 3.172, Acc 0.001
+score 1 is [0.97023374] and score 2 is 0.0
+Round   1, Average loss 3.092, Acc 0.001
+score 1 is [0.91017413] and score 2 is 0.0
+Round   2, Average loss 3.092, Acc 0.001
+score 1 is [0.9095829] and score 2 is 0.0
+Round   3, Average loss 3.092, Acc 0.001
+score 1 is [0.88418114] and score 2 is 0.0
+Round   4, Average loss 3.098, Acc 0.001
+11.034072399139404 s
+Memory used: 1670.74 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.9378508] and score 2 is 0.0
+Round   0, Average loss 3.177, Acc 0.000
+score 1 is [0.9370719] and score 2 is 0.0
+Round   1, Average loss 3.151, Acc 0.000
+score 1 is [0.8733399] and score 2 is 0.0
+Round   2, Average loss 3.151, Acc 0.000
+score 1 is [0.8736489] and score 2 is 0.0
+Round   3, Average loss 3.113, Acc 0.000
+score 1 is [0.9702462] and score 2 is 0.0
+Round   4, Average loss 3.202, Acc 0.000
+9.629053115844727 s
+Memory used: 1714.05 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.44978482] and score 2 is 0.0
+Round   0, Average loss 0.015, Acc 0.983
+score 1 is [0.5704886] and score 2 is 0.0
+Round   1, Average loss 0.034, Acc 0.983
+score 1 is [0.56044084] and score 2 is 0.0
+Round   2, Average loss 0.029, Acc 0.983
+score 1 is [0.6511401] and score 2 is 0.0
+Round   3, Average loss 0.001, Acc 0.983
+score 1 is [0.50331455] and score 2 is 0.0
+Round   4, Average loss 0.034, Acc 0.983
+11.64568018913269 s
+Memory used: 1672.84 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.31822786] and score 2 is 0.0
+Round   0, Average loss 0.011, Acc 0.983
+score 1 is [0.61011] and score 2 is 0.0
+Round   1, Average loss 0.015, Acc 0.983
+score 1 is [0.7778461] and score 2 is 0.0
+Round   2, Average loss 0.019, Acc 0.983
+score 1 is [0.7338275] and score 2 is 0.0
+Round   3, Average loss 0.015, Acc 0.983
+score 1 is [0.9326957] and score 2 is 0.0
+Round   4, Average loss 0.013, Acc 0.983
+11.704551458358765 s
+Memory used: 1737.87 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.93669903] and score 2 is 0.0
+Round   0, Average loss 3.195, Acc 0.000
+score 1 is [0.85764414] and score 2 is 0.0
+Round   1, Average loss 3.195, Acc 0.000
+score 1 is [0.9369309] and score 2 is 0.0
+Round   2, Average loss 3.257, Acc 0.000
+score 1 is [0.873527] and score 2 is 0.0
+Round   3, Average loss 3.195, Acc 0.000
+score 1 is [0.87951016] and score 2 is 0.0
+Round   4, Average loss 3.198, Acc 0.000
+11.63651180267334 s
+Memory used: 1667.90 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.91445047] and score 2 is 0.0
+Round   0, Average loss 3.093, Acc 0.000
+score 1 is [0.93085265] and score 2 is 0.0
+Round   1, Average loss 3.142, Acc 0.000
+score 1 is [0.9741654] and score 2 is 0.0
+Round   2, Average loss 3.093, Acc 0.000
+score 1 is [0.9084264] and score 2 is 0.0
+Round   3, Average loss 3.155, Acc 0.000
+score 1 is [0.9756049] and score 2 is 0.0
+Round   4, Average loss 3.093, Acc 0.000
+12.701711893081665 s
+Memory used: 1710.51 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.587236] and score 2 is 0.0
+Round   0, Average loss 0.002, Acc 0.985
+score 1 is [0.46792918] and score 2 is 0.0
+Round   1, Average loss 0.222, Acc 0.985
+score 1 is [0.5772541] and score 2 is 0.0
+Round   2, Average loss 0.001, Acc 0.985
+score 1 is [0.40531108] and score 2 is 1.0
+Round   3, Average loss 0.003, Acc 0.985
+score 1 is [0.48583546] and score 2 is 1.0
+Round   4, Average loss 0.003, Acc 0.985
+10.955739498138428 s
+Memory used: 1670.71 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.6448334] and score 2 is 0.0
+Round   0, Average loss 0.003, Acc 0.985
+score 1 is [0.850172] and score 2 is 1.0
+Round   1, Average loss 0.003, Acc 0.985
+score 1 is [0.4911242] and score 2 is 1.0
+Round   2, Average loss 0.003, Acc 0.985
+score 1 is [0.9259332] and score 2 is 0.0
+Round   3, Average loss 0.022, Acc 0.985
+score 1 is [0.65143174] and score 2 is 0.0
+Round   4, Average loss 0.003, Acc 0.985
+9.63031530380249 s
+Memory used: 1704.00 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00198212] and score 2 is 1.0
+Round   0, Average loss 3.158, Acc 0.042
+score 1 is [0.00133231] and score 2 is 1.0
+Round   1, Average loss 3.081, Acc 0.042
+score 1 is [0.00139702] and score 2 is 1.0
+Round   2, Average loss 3.156, Acc 0.042
+score 1 is [0.0025048] and score 2 is 1.0
+Round   3, Average loss 3.156, Acc 0.042
+score 1 is [0.00306202] and score 2 is 1.0
+Round   4, Average loss 3.156, Acc 0.042
+8.317133903503418 s
+Memory used: 1562.35 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [2.9082534e-09] and score 2 is 1.0
+Round   0, Average loss 3.110, Acc 0.002
+score 1 is [0.] and score 2 is 1.0
+Round   1, Average loss 3.110, Acc 0.002
+score 1 is [0.] and score 2 is 1.0
+Round   2, Average loss 3.110, Acc 0.002
+score 1 is [0.] and score 2 is 1.0
+Round   3, Average loss 3.110, Acc 0.002
+score 1 is [0.] and score 2 is 1.0
+Round   4, Average loss 3.110, Acc 0.002
+9.385340929031372 s
+Memory used: 1578.28 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4455411] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.992
+score 1 is [0.45979616] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.992
+score 1 is [0.3390559] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.992
+score 1 is [0.5237901] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.992
+score 1 is [0.5113538] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.992
+8.329812288284302 s
+Memory used: 1541.88 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [1.1584744e-09] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.992
+score 1 is [7.098495e-13] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.992
+score 1 is [7.098495e-13] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.992
+score 1 is [7.098495e-13] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.992
+score 1 is [7.632302e-09] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.992
+10.603565692901611 s
+Memory used: 1588.48 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.19359863] and score 2 is 1.0
+Round   0, Average loss 3.221, Acc 0.214
+score 1 is [0.21856117] and score 2 is 1.0
+Round   1, Average loss 3.221, Acc 0.214
+score 1 is [0.21777825] and score 2 is 1.0
+Round   2, Average loss 3.221, Acc 0.214
+score 1 is [0.11628439] and score 2 is 1.0
+Round   3, Average loss 3.010, Acc 0.214
+score 1 is [0.10893176] and score 2 is 1.0
+Round   4, Average loss 3.135, Acc 0.214
+10.853087902069092 s
+Memory used: 1593.31 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.06093643] and score 2 is 1.0
+Round   0, Average loss 3.170, Acc 0.568
+score 1 is [0.02439515] and score 2 is 1.0
+Round   1, Average loss 3.008, Acc 0.568
+score 1 is [0.06247974] and score 2 is 1.0
+Round   2, Average loss 3.169, Acc 0.568
+score 1 is [0.02439515] and score 2 is 1.0
+Round   3, Average loss 3.008, Acc 0.568
+score 1 is [0.05894646] and score 2 is 1.0
+Round   4, Average loss 3.176, Acc 0.568
+11.062677145004272 s
+Memory used: 1625.46 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4654435] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.990
+score 1 is [0.54644114] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.990
+score 1 is [0.56078076] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.990
+score 1 is [0.43939173] and score 2 is 0.0
+Round   3, Average loss 0.032, Acc 0.990
+score 1 is [0.42731443] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.990
+9.767435789108276 s
+Memory used: 1595.74 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00752647] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.990
+score 1 is [0.0087789] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.990
+score 1 is [0.03252112] and score 2 is 0.0
+Round   2, Average loss 0.003, Acc 0.990
+score 1 is [0.02439515] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.990
+score 1 is [0.02439515] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.990
+10.378557205200195 s
+Memory used: 1621.82 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.22358632] and score 2 is 1.0
+Round   0, Average loss 3.091, Acc 0.018
+score 1 is [0.2733978] and score 2 is 1.0
+Round   1, Average loss 3.040, Acc 0.018
+score 1 is [0.2600153] and score 2 is 1.0
+Round   2, Average loss 3.091, Acc 0.018
+score 1 is [0.24561593] and score 2 is 1.0
+Round   3, Average loss 3.091, Acc 0.018
+score 1 is [0.28158066] and score 2 is 1.0
+Round   4, Average loss 3.091, Acc 0.018
+10.07751178741455 s
+Memory used: 1493.54 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.25336635] and score 2 is 1.0
+Round   0, Average loss 3.106, Acc 0.002
+score 1 is [0.25434887] and score 2 is 1.0
+Round   1, Average loss 3.106, Acc 0.002
+score 1 is [0.20921694] and score 2 is 1.0
+Round   2, Average loss 3.023, Acc 0.002
+score 1 is [0.24920012] and score 2 is 1.0
+Round   3, Average loss 3.106, Acc 0.002
+score 1 is [0.2097831] and score 2 is 1.0
+Round   4, Average loss 3.126, Acc 0.002
+10.144814014434814 s
+Memory used: 1534.42 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.48011616] and score 2 is 1.0
+Round   0, Average loss 0.029, Acc 0.982
+score 1 is [0.4989188] and score 2 is 0.0
+Round   1, Average loss 0.002, Acc 0.982
+score 1 is [0.45525327] and score 2 is 0.0
+Round   2, Average loss 0.002, Acc 0.982
+score 1 is [0.48402438] and score 2 is 0.0
+Round   3, Average loss 0.002, Acc 0.982
+score 1 is [0.53000975] and score 2 is 0.0
+Round   4, Average loss 0.002, Acc 0.982
+8.69345235824585 s
+Memory used: 1507.64 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.2518399] and score 2 is 0.0
+Round   0, Average loss 0.002, Acc 0.982
+score 1 is [0.23072006] and score 2 is 0.0
+Round   1, Average loss 0.002, Acc 0.982
+score 1 is [0.21839134] and score 2 is 0.0
+Round   2, Average loss 0.003, Acc 0.982
+score 1 is [0.1791587] and score 2 is 1.0
+Round   3, Average loss 0.122, Acc 0.982
+score 1 is [0.20797046] and score 2 is 0.0
+Round   4, Average loss 0.074, Acc 0.982
+10.776608943939209 s
+Memory used: 1557.19 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.17370416] and score 2 is 1.0
+Round   0, Average loss 3.131, Acc 0.000
+score 1 is [0.22251192] and score 2 is 0.0
+Round   1, Average loss 3.160, Acc 0.000
+score 1 is [0.17850704] and score 2 is 0.0
+Round   2, Average loss 3.164, Acc 0.000
+score 1 is [0.23101632] and score 2 is 0.0
+Round   3, Average loss 3.160, Acc 0.000
+score 1 is [0.14631109] and score 2 is 0.0
+Round   4, Average loss 3.210, Acc 0.000
+12.722269773483276 s
+Memory used: 1525.27 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.19128212] and score 2 is 0.0
+Round   0, Average loss 3.271, Acc 0.001
+score 1 is [0.14634638] and score 2 is 1.0
+Round   1, Average loss 3.172, Acc 0.001
+score 1 is [0.22320019] and score 2 is 0.0
+Round   2, Average loss 3.081, Acc 0.001
+score 1 is [0.20818359] and score 2 is 0.0
+Round   3, Average loss 3.170, Acc 0.001
+score 1 is [0.18299359] and score 2 is 0.0
+Round   4, Average loss 3.172, Acc 0.001
+12.058862686157227 s
+Memory used: 1555.77 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.57342076] and score 2 is 0.0
+Round   0, Average loss 0.025, Acc 0.962
+score 1 is [0.5513681] and score 2 is 1.0
+Round   1, Average loss 0.025, Acc 0.962
+score 1 is [0.4715324] and score 2 is 1.0
+Round   2, Average loss 0.025, Acc 0.962
+score 1 is [0.3478874] and score 2 is 0.0
+Round   3, Average loss 0.525, Acc 0.962
+score 1 is [0.5311617] and score 2 is 1.0
+Round   4, Average loss 0.025, Acc 0.962
+13.280667781829834 s
+Memory used: 1522.75 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.17999575] and score 2 is 0.0
+Round   0, Average loss 0.116, Acc 0.962
+score 1 is [0.15521668] and score 2 is 0.0
+Round   1, Average loss 0.041, Acc 0.962
+score 1 is [0.2162531] and score 2 is 0.0
+Round   2, Average loss 0.025, Acc 0.962
+score 1 is [0.09865683] and score 2 is 0.0
+Round   3, Average loss 0.511, Acc 0.962
+score 1 is [0.15905745] and score 2 is 0.0
+Round   4, Average loss 0.033, Acc 0.962
+13.123584747314453 s
+Memory used: 1570.21 MB
+
+dataset: mirai
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.03837534] and score 2 is 1.0
+Round   0, Average loss 0.734, Acc 0.592
+score 1 is [0.01938208] and score 2 is 1.0
+Round   1, Average loss 0.672, Acc 0.592
+score 1 is [0.03817976] and score 2 is 1.0
+Round   2, Average loss 0.671, Acc 0.592
+score 1 is [0.00117792] and score 2 is 1.0
+Round   3, Average loss 0.673, Acc 0.592
+score 1 is [0.08819452] and score 2 is 1.0
+Round   4, Average loss 0.681, Acc 0.592
+9.49622368812561 s
+Memory used: 1651.49 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [1.0800559e-08] and score 2 is 1.0
+Round   0, Average loss 0.745, Acc 0.408
+score 1 is [3.1274983e-09] and score 2 is 1.0
+Round   1, Average loss 0.647, Acc 0.408
+score 1 is [2.4969635e-09] and score 2 is 1.0
+Round   2, Average loss 0.742, Acc 0.408
+score 1 is [2.7043279e-09] and score 2 is 1.0
+Round   3, Average loss 0.733, Acc 0.408
+score 1 is [5.729007e-09] and score 2 is 1.0
+Round   4, Average loss 0.744, Acc 0.408
+9.74126148223877 s
+Memory used: 1688.92 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.1437986] and score 2 is 1.0
+Round   0, Average loss 0.120, Acc 0.923
+score 1 is [0.01285721] and score 2 is 1.0
+Round   1, Average loss 1.949, Acc 0.923
+score 1 is [0.3045005] and score 2 is 1.0
+Round   2, Average loss 0.121, Acc 0.923
+score 1 is [0.32336235] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.923
+score 1 is [0.3773538] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.923
+9.601020097732544 s
+Memory used: 1654.49 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [9.21139e-09] and score 2 is 1.0
+Round   0, Average loss 0.000, Acc 0.923
+score 1 is [4.7372315e-09] and score 2 is 1.0
+Round   1, Average loss 0.105, Acc 0.923
+score 1 is [2.6287057e-09] and score 2 is 1.0
+Round   2, Average loss 2.372, Acc 0.923
+score 1 is [8.941668e-09] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.923
+score 1 is [1.5359602e-08] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.923
+10.874243259429932 s
+Memory used: 1690.81 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.6435717] and score 2 is 1.0
+Round   0, Average loss 0.663, Acc 0.408
+score 1 is [0.6232363] and score 2 is 1.0
+Round   1, Average loss 0.727, Acc 0.408
+score 1 is [0.5891817] and score 2 is 1.0
+Round   2, Average loss 0.662, Acc 0.408
+score 1 is [0.6394624] and score 2 is 1.0
+Round   3, Average loss 0.742, Acc 0.408
+score 1 is [0.6732636] and score 2 is 1.0
+Round   4, Average loss 0.730, Acc 0.408
+11.169361591339111 s
+Memory used: 1826.78 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.6179606] and score 2 is 1.0
+Round   0, Average loss 0.683, Acc 0.408
+score 1 is [0.78590995] and score 2 is 1.0
+Round   1, Average loss 0.716, Acc 0.408
+score 1 is [0.6725712] and score 2 is 1.0
+Round   2, Average loss 0.684, Acc 0.408
+score 1 is [0.74952286] and score 2 is 1.0
+Round   3, Average loss 0.714, Acc 0.408
+score 1 is [0.714314] and score 2 is 1.0
+Round   4, Average loss 0.716, Acc 0.408
+9.686049461364746 s
+Memory used: 1875.62 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4251713] and score 2 is 1.0
+Round   0, Average loss 0.573, Acc 0.921
+score 1 is [0.5123009] and score 2 is 0.0
+Round   1, Average loss 0.235, Acc 0.921
+score 1 is [0.5073979] and score 2 is 1.0
+Round   2, Average loss 1.182, Acc 0.921
+score 1 is [0.4023519] and score 2 is 0.0
+Round   3, Average loss 0.201, Acc 0.921
+score 1 is [0.42908004] and score 2 is 1.0
+Round   4, Average loss 0.185, Acc 0.921
+10.690282106399536 s
+Memory used: 1823.66 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+extraction failed
+score 1 is [0.42438123] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.921
+extraction failed
+score 1 is [0.43242615] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.921
+score 1 is [0.6813374] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.921
+score 1 is [0.6404236] and score 2 is 1.0
+Round   3, Average loss 0.209, Acc 0.921
+score 1 is [0.6084138] and score 2 is 1.0
+Round   4, Average loss 0.230, Acc 0.921
+9.062740564346313 s
+Memory used: 1855.05 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.6434166] and score 2 is 1.0
+Round   0, Average loss 0.704, Acc 0.408
+score 1 is [0.61442053] and score 2 is 1.0
+Round   1, Average loss 0.718, Acc 0.408
+score 1 is [0.7248326] and score 2 is 1.0
+Round   2, Average loss 0.700, Acc 0.408
+score 1 is [0.5629232] and score 2 is 1.0
+Round   3, Average loss 0.703, Acc 0.408
+score 1 is [0.6813189] and score 2 is 1.0
+Round   4, Average loss 0.669, Acc 0.408
+11.575380325317383 s
+Memory used: 1822.33 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.7262014] and score 2 is 1.0
+Round   0, Average loss 0.652, Acc 0.408
+score 1 is [0.7776177] and score 2 is 1.0
+Round   1, Average loss 0.744, Acc 0.408
+score 1 is [0.8024809] and score 2 is 1.0
+Round   2, Average loss 0.745, Acc 0.408
+score 1 is [0.7551548] and score 2 is 1.0
+Round   3, Average loss 0.742, Acc 0.408
+score 1 is [0.7624838] and score 2 is 1.0
+Round   4, Average loss 0.743, Acc 0.408
+12.256064653396606 s
+Memory used: 1874.70 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.5435176] and score 2 is 1.0
+Round   0, Average loss 0.144, Acc 0.922
+score 1 is [0.51407325] and score 2 is 0.0
+Round   1, Average loss 1.976, Acc 0.922
+score 1 is [0.46301988] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.922
+score 1 is [0.5067518] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.922
+score 1 is [0.48149562] and score 2 is 0.0
+Round   4, Average loss 1.862, Acc 0.922
+9.435688734054565 s
+Memory used: 1825.70 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.71432173] and score 2 is 0.0
+Round   0, Average loss 0.174, Acc 0.922
+score 1 is [0.82048386] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.922
+score 1 is [0.78160715] and score 2 is 0.0
+Round   2, Average loss 0.160, Acc 0.922
+score 1 is [0.7621467] and score 2 is 0.0
+Round   3, Average loss 0.157, Acc 0.922
+score 1 is [0.80689585] and score 2 is 0.0
+Round   4, Average loss 0.158, Acc 0.922
+11.137810468673706 s
+Memory used: 1864.82 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.66289604] and score 2 is 1.0
+Round   0, Average loss 0.739, Acc 0.408
+score 1 is [0.6104135] and score 2 is 1.0
+Round   1, Average loss 0.733, Acc 0.408
+score 1 is [0.65770227] and score 2 is 1.0
+Round   2, Average loss 0.735, Acc 0.408
+score 1 is [0.68319374] and score 2 is 1.0
+Round   3, Average loss 0.742, Acc 0.408
+score 1 is [0.7913172] and score 2 is 1.0
+Round   4, Average loss 0.653, Acc 0.408
+12.146607637405396 s
+Memory used: 1825.84 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.8082231] and score 2 is 1.0
+Round   0, Average loss 0.650, Acc 0.592
+score 1 is [0.8344414] and score 2 is 1.0
+Round   1, Average loss 0.650, Acc 0.592
+score 1 is [0.7698868] and score 2 is 1.0
+Round   2, Average loss 0.642, Acc 0.592
+score 1 is [0.76344454] and score 2 is 1.0
+Round   3, Average loss 0.745, Acc 0.592
+score 1 is [0.81497294] and score 2 is 1.0
+Round   4, Average loss 0.748, Acc 0.592
+11.66529655456543 s
+Memory used: 1861.32 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4534711] and score 2 is 0.0
+Round   0, Average loss 0.251, Acc 0.921
+score 1 is [0.49655414] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.921
+score 1 is [0.42069227] and score 2 is 0.0
+Round   2, Average loss 0.267, Acc 0.921
+score 1 is [0.44104508] and score 2 is 1.0
+Round   3, Average loss 1.660, Acc 0.921
+score 1 is [0.41865203] and score 2 is 0.0
+Round   4, Average loss 0.256, Acc 0.921
+11.209402084350586 s
+Memory used: 1848.53 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.5271492] and score 2 is 0.0
+Round   0, Average loss 0.230, Acc 0.921
+score 1 is [0.60847163] and score 2 is 0.0
+Round   1, Average loss 0.194, Acc 0.921
+score 1 is [0.7841298] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.921
+score 1 is [0.84553546] and score 2 is 1.0
+Round   3, Average loss 0.000, Acc 0.921
+score 1 is [0.5052831] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.921
+11.180835008621216 s
+Memory used: 1860.79 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.11026538] and score 2 is 1.0
+Round   0, Average loss 0.693, Acc 0.920
+score 1 is [0.127781] and score 2 is 1.0
+Round   1, Average loss 0.691, Acc 0.920
+score 1 is [0.15378146] and score 2 is 1.0
+Round   2, Average loss 0.691, Acc 0.920
+score 1 is [0.13042104] and score 2 is 1.0
+Round   3, Average loss 0.694, Acc 0.920
+score 1 is [0.05436059] and score 2 is 1.0
+Round   4, Average loss 0.691, Acc 0.920
+10.576329231262207 s
+Memory used: 1682.92 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [4.202011e-09] and score 2 is 1.0
+Round   0, Average loss 0.715, Acc 0.408
+score 1 is [1.0880686e-08] and score 2 is 1.0
+Round   1, Average loss 0.723, Acc 0.408
+score 1 is [4.769727e-09] and score 2 is 1.0
+Round   2, Average loss 0.720, Acc 0.408
+score 1 is [8.609881e-09] and score 2 is 1.0
+Round   3, Average loss 0.708, Acc 0.408
+score 1 is [7.901727e-09] and score 2 is 1.0
+Round   4, Average loss 0.717, Acc 0.408
+11.002578973770142 s
+Memory used: 1720.45 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.27601582] and score 2 is 0.0
+Round   0, Average loss 0.153, Acc 0.923
+score 1 is [0.40811503] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.923
+score 1 is [0.38846073] and score 2 is 1.0
+Round   2, Average loss 0.169, Acc 0.923
+score 1 is [0.41211787] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.923
+score 1 is [0.45856908] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.923
+10.60817551612854 s
+Memory used: 1687.98 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [4.1265964e-09] and score 2 is 1.0
+Round   0, Average loss 1.316, Acc 0.923
+score 1 is [6.3439596e-09] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.923
+score 1 is [6.9560064e-09] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.923
+score 1 is [4.9061417e-09] and score 2 is 1.0
+Round   3, Average loss 0.171, Acc 0.923
+score 1 is [8.197446e-09] and score 2 is 1.0
+Round   4, Average loss 1.605, Acc 0.923
+11.2488272190094 s
+Memory used: 1721.06 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.23858112] and score 2 is 1.0
+Round   0, Average loss 0.752, Acc 0.408
+score 1 is [0.12651987] and score 2 is 1.0
+Round   1, Average loss 0.631, Acc 0.408
+score 1 is [0.13287114] and score 2 is 1.0
+Round   2, Average loss 0.632, Acc 0.408
+score 1 is [0.2617181] and score 2 is 1.0
+Round   3, Average loss 0.747, Acc 0.408
+score 1 is [0.24546106] and score 2 is 1.0
+Round   4, Average loss 0.754, Acc 0.408
+10.59399151802063 s
+Memory used: 1718.38 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.06272816] and score 2 is 1.0
+Round   0, Average loss 0.710, Acc 0.408
+score 1 is [0.06449341] and score 2 is 1.0
+Round   1, Average loss 0.711, Acc 0.408
+score 1 is [0.06613223] and score 2 is 1.0
+Round   2, Average loss 0.707, Acc 0.408
+score 1 is [0.02746506] and score 2 is 1.0
+Round   3, Average loss 0.728, Acc 0.408
+score 1 is [0.01863196] and score 2 is 1.0
+Round   4, Average loss 0.661, Acc 0.408
+10.258752584457397 s
+Memory used: 1761.02 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.39940572] and score 2 is 1.0
+Round   0, Average loss 0.000, Acc 0.922
+score 1 is [0.4601268] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.922
+score 1 is [0.37057197] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.922
+score 1 is [0.39713442] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.922
+score 1 is [0.41454506] and score 2 is 1.0
+Round   4, Average loss 0.001, Acc 0.922
+9.755679607391357 s
+Memory used: 1721.83 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.01932186] and score 2 is 1.0
+Round   0, Average loss 0.168, Acc 0.922
+score 1 is [0.0198277] and score 2 is 0.0
+Round   1, Average loss 0.166, Acc 0.922
+score 1 is [0.03193954] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.922
+score 1 is [0.02439666] and score 2 is 1.0
+Round   3, Average loss 0.000, Acc 0.922
+score 1 is [0.02812101] and score 2 is 1.0
+Round   4, Average loss 0.000, Acc 0.922
+11.277390956878662 s
+Memory used: 1759.29 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.36546794] and score 2 is 1.0
+Round   0, Average loss 0.684, Acc 0.263
+score 1 is [0.30901662] and score 2 is 1.0
+Round   1, Average loss 0.722, Acc 0.263
+score 1 is [0.3619999] and score 2 is 1.0
+Round   2, Average loss 0.684, Acc 0.263
+score 1 is [0.33789185] and score 2 is 1.0
+Round   3, Average loss 0.688, Acc 0.263
+score 1 is [0.36106557] and score 2 is 1.0
+Round   4, Average loss 0.683, Acc 0.263
+10.374122858047485 s
+Memory used: 1656.49 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.15207174] and score 2 is 1.0
+Round   0, Average loss 0.704, Acc 0.587
+score 1 is [0.1931927] and score 2 is 1.0
+Round   1, Average loss 0.681, Acc 0.587
+score 1 is [0.22402063] and score 2 is 1.0
+Round   2, Average loss 0.685, Acc 0.587
+score 1 is [0.11018807] and score 2 is 1.0
+Round   3, Average loss 0.706, Acc 0.587
+score 1 is [0.11101709] and score 2 is 1.0
+Round   4, Average loss 0.706, Acc 0.587
+10.121448993682861 s
+Memory used: 1693.11 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.35947883] and score 2 is 1.0
+Round   0, Average loss 0.000, Acc 0.922
+score 1 is [0.32931015] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.922
+score 1 is [0.2479834] and score 2 is 1.0
+Round   2, Average loss 0.205, Acc 0.922
+score 1 is [0.2292176] and score 2 is 1.0
+Round   3, Average loss 0.181, Acc 0.922
+score 1 is [0.17225595] and score 2 is 1.0
+Round   4, Average loss 0.205, Acc 0.922
+10.40589165687561 s
+Memory used: 1648.91 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.10271566] and score 2 is 0.0
+Round   0, Average loss 0.146, Acc 0.922
+score 1 is [0.2000738] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.922
+score 1 is [0.14583403] and score 2 is 1.0
+Round   2, Average loss 0.174, Acc 0.922
+score 1 is [0.10136387] and score 2 is 1.0
+Round   3, Average loss 0.228, Acc 0.922
+score 1 is [0.24009065] and score 2 is 1.0
+Round   4, Average loss 0.000, Acc 0.922
+8.596755743026733 s
+Memory used: 1690.42 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.16926853] and score 2 is 1.0
+Round   0, Average loss 0.676, Acc 0.408
+score 1 is [0.23965347] and score 2 is 0.0
+Round   1, Average loss 0.676, Acc 0.408
+score 1 is [0.34142986] and score 2 is 0.0
+Round   2, Average loss 0.714, Acc 0.408
+score 1 is [0.2211372] and score 2 is 0.0
+Round   3, Average loss 0.676, Acc 0.408
+score 1 is [0.23624037] and score 2 is 1.0
+Round   4, Average loss 0.675, Acc 0.408
+11.68402910232544 s
+Memory used: 1657.66 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.16112301] and score 2 is 1.0
+Round   0, Average loss 0.702, Acc 0.408
+score 1 is [0.06499296] and score 2 is 0.0
+Round   1, Average loss 0.668, Acc 0.408
+score 1 is [0.13317539] and score 2 is 1.0
+Round   2, Average loss 0.704, Acc 0.408
+score 1 is [0.1012992] and score 2 is 0.0
+Round   3, Average loss 0.665, Acc 0.408
+score 1 is [0.15927394] and score 2 is 0.0
+Round   4, Average loss 0.701, Acc 0.408
+12.234633445739746 s
+Memory used: 1698.15 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.2816206] and score 2 is 0.0
+Round   0, Average loss 1.438, Acc 0.921
+score 1 is [0.2435962] and score 2 is 1.0
+Round   1, Average loss 0.025, Acc 0.921
+score 1 is [0.10210266] and score 2 is 1.0
+Round   2, Average loss 0.286, Acc 0.921
+score 1 is [0.1766078] and score 2 is 0.0
+Round   3, Average loss 1.431, Acc 0.921
+score 1 is [0.10287639] and score 2 is 1.0
+Round   4, Average loss 1.391, Acc 0.921
+11.851546287536621 s
+Memory used: 1656.68 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.13308017] and score 2 is 0.0
+Round   0, Average loss 0.152, Acc 0.921
+score 1 is [0.10825773] and score 2 is 1.0
+Round   1, Average loss 0.073, Acc 0.921
+score 1 is [0.06591098] and score 2 is 1.0
+Round   2, Average loss 0.286, Acc 0.921
+score 1 is [0.11082588] and score 2 is 0.0
+Round   3, Average loss 0.065, Acc 0.921
+score 1 is [0.10413017] and score 2 is 1.0
+Round   4, Average loss 0.052, Acc 0.921
+12.394846200942993 s
+Memory used: 1696.66 MB
+
+dataset: cic2017
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.08098788] and score 2 is 1.0
+Round   0, Average loss 0.754, Acc 0.433
+score 1 is [0.11185398] and score 2 is 1.0
+Round   1, Average loss 0.648, Acc 0.433
+score 1 is [0.0015578] and score 2 is 1.0
+Round   2, Average loss 0.754, Acc 0.433
+score 1 is [0.03022248] and score 2 is 1.0
+Round   3, Average loss 0.648, Acc 0.433
+score 1 is [0.01513047] and score 2 is 1.0
+Round   4, Average loss 0.749, Acc 0.433
+9.620346307754517 s
+Memory used: 1373.17 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [4.138512e-09] and score 2 is 1.0
+Round   0, Average loss 0.693, Acc 0.388
+score 1 is [3.075816e-09] and score 2 is 1.0
+Round   1, Average loss 0.690, Acc 0.388
+score 1 is [1.4392518e-09] and score 2 is 1.0
+Round   2, Average loss 0.686, Acc 0.388
+score 1 is [1.2457703e-10] and score 2 is 1.0
+Round   3, Average loss 0.703, Acc 0.388
+score 1 is [2.5274455e-10] and score 2 is 1.0
+Round   4, Average loss 0.698, Acc 0.388
+10.532038450241089 s
+Memory used: 1410.00 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.46337664] and score 2 is 1.0
+Round   0, Average loss 0.000, Acc 0.982
+score 1 is [0.5100822] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.982
+score 1 is [0.5133443] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.982
+score 1 is [0.5006103] and score 2 is 0.0
+Round   3, Average loss 0.000, Acc 0.982
+score 1 is [0.45285922] and score 2 is 1.0
+Round   4, Average loss 0.000, Acc 0.982
+8.750675439834595 s
+Memory used: 1374.26 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [1.2505074e-09] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.982
+score 1 is [2.8073843e-09] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.982
+score 1 is [6.3425337e-10] and score 2 is 1.0
+Round   2, Average loss 0.061, Acc 0.982
+score 1 is [1.2055112e-09] and score 2 is 1.0
+Round   3, Average loss 3.079, Acc 0.982
+score 1 is [3.3300909e-09] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.982
+8.94218134880066 s
+Memory used: 1421.00 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.74926245] and score 2 is 1.0
+Round   0, Average loss 0.705, Acc 0.374
+score 1 is [0.6630896] and score 2 is 1.0
+Round   1, Average loss 0.705, Acc 0.374
+score 1 is [0.59540087] and score 2 is 1.0
+Round   2, Average loss 0.684, Acc 0.374
+score 1 is [0.5361737] and score 2 is 1.0
+Round   3, Average loss 0.705, Acc 0.374
+score 1 is [0.767101] and score 2 is 1.0
+Round   4, Average loss 0.679, Acc 0.374
+9.99994158744812 s
+Memory used: 1542.09 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.7541675] and score 2 is 1.0
+Round   0, Average loss 0.656, Acc 0.433
+score 1 is [0.74609697] and score 2 is 1.0
+Round   1, Average loss 0.724, Acc 0.433
+score 1 is [0.71129155] and score 2 is 1.0
+Round   2, Average loss 0.657, Acc 0.433
+score 1 is [0.6664315] and score 2 is 1.0
+Round   3, Average loss 0.657, Acc 0.433
+score 1 is [0.75217795] and score 2 is 1.0
+Round   4, Average loss 0.731, Acc 0.433
+11.671411275863647 s
+Memory used: 1580.45 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.38785392] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.970
+score 1 is [0.41853318] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.970
+score 1 is [0.5461088] and score 2 is 1.0
+Round   2, Average loss 0.003, Acc 0.970
+score 1 is [0.50363845] and score 2 is 1.0
+Round   3, Average loss 0.000, Acc 0.970
+score 1 is [0.37360486] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.970
+8.629348993301392 s
+Memory used: 1562.13 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.6758591] and score 2 is 1.0
+Round   0, Average loss 0.005, Acc 0.970
+score 1 is [0.8425328] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.970
+extraction failed
+score 1 is [0.5746245] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.970
+extraction failed
+score 1 is [0.47973883] and score 2 is 1.0
+Round   3, Average loss 0.000, Acc 0.970
+extraction failed
+score 1 is [0.4979397] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.970
+9.862725734710693 s
+Memory used: 1580.37 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.75045377] and score 2 is 1.0
+Round   0, Average loss 0.655, Acc 0.433
+score 1 is [0.7782137] and score 2 is 1.0
+Round   1, Average loss 0.656, Acc 0.433
+score 1 is [0.72064143] and score 2 is 1.0
+Round   2, Average loss 0.732, Acc 0.433
+score 1 is [0.7963612] and score 2 is 1.0
+Round   3, Average loss 0.660, Acc 0.433
+score 1 is [0.7748151] and score 2 is 1.0
+Round   4, Average loss 0.732, Acc 0.433
+10.366609573364258 s
+Memory used: 1544.14 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.8043709] and score 2 is 1.0
+Round   0, Average loss 0.714, Acc 0.754
+score 1 is [0.806596] and score 2 is 1.0
+Round   1, Average loss 0.693, Acc 0.754
+score 1 is [0.82141393] and score 2 is 1.0
+Round   2, Average loss 0.705, Acc 0.754
+score 1 is [0.8396463] and score 2 is 1.0
+Round   3, Average loss 0.690, Acc 0.754
+score 1 is [0.8354377] and score 2 is 1.0
+Round   4, Average loss 0.688, Acc 0.754
+10.619391202926636 s
+Memory used: 1587.72 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.5330869] and score 2 is 1.0
+Round   0, Average loss 0.000, Acc 0.967
+score 1 is [0.4506317] and score 2 is 0.0
+Round   1, Average loss 0.370, Acc 0.967
+score 1 is [0.5163925] and score 2 is 1.0
+Round   2, Average loss 0.001, Acc 0.967
+score 1 is [0.5341898] and score 2 is 1.0
+Round   3, Average loss 0.001, Acc 0.967
+score 1 is [0.51476693] and score 2 is 1.0
+Round   4, Average loss 0.000, Acc 0.967
+9.06468939781189 s
+Memory used: 1545.29 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.81656975] and score 2 is 1.0
+Round   0, Average loss 0.001, Acc 0.967
+score 1 is [0.7766005] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.967
+score 1 is [0.57655233] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.967
+score 1 is [0.81144744] and score 2 is 1.0
+Round   3, Average loss 0.319, Acc 0.967
+score 1 is [0.5589088] and score 2 is 0.0
+Round   4, Average loss 0.000, Acc 0.967
+10.636997699737549 s
+Memory used: 1589.32 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.66830474] and score 2 is 1.0
+Round   0, Average loss 0.701, Acc 0.372
+score 1 is [0.65479] and score 2 is 1.0
+Round   1, Average loss 0.706, Acc 0.372
+score 1 is [0.80477] and score 2 is 1.0
+Round   2, Average loss 0.685, Acc 0.372
+score 1 is [0.85617477] and score 2 is 1.0
+Round   3, Average loss 0.703, Acc 0.372
+score 1 is [0.73651075] and score 2 is 1.0
+Round   4, Average loss 0.695, Acc 0.372
+11.0743088722229 s
+Memory used: 1553.89 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.8049641] and score 2 is 1.0
+Round   0, Average loss 0.780, Acc 0.567
+score 1 is [0.9407388] and score 2 is 0.0
+Round   1, Average loss 0.618, Acc 0.567
+score 1 is [0.825086] and score 2 is 1.0
+Round   2, Average loss 0.617, Acc 0.567
+score 1 is [0.88962376] and score 2 is 1.0
+Round   3, Average loss 0.772, Acc 0.567
+score 1 is [0.8300997] and score 2 is 1.0
+Round   4, Average loss 0.609, Acc 0.567
+11.650052547454834 s
+Memory used: 1589.64 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4807721] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.970
+score 1 is [0.4661158] and score 2 is 0.0
+Round   1, Average loss 0.004, Acc 0.970
+score 1 is [0.46230125] and score 2 is 1.0
+Round   2, Average loss 0.049, Acc 0.970
+score 1 is [0.546292] and score 2 is 1.0
+Round   3, Average loss 0.085, Acc 0.970
+score 1 is [0.53913724] and score 2 is 0.0
+Round   4, Average loss 0.201, Acc 0.970
+8.081000328063965 s
+Memory used: 1560.01 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.6687289] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.970
+score 1 is [0.622976] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.970
+score 1 is [0.76130307] and score 2 is 0.0
+Round   2, Average loss 0.171, Acc 0.970
+score 1 is [0.84713376] and score 2 is 1.0
+Round   3, Average loss 0.077, Acc 0.970
+score 1 is [0.7692422] and score 2 is 1.0
+Round   4, Average loss 0.000, Acc 0.970
+9.929169416427612 s
+Memory used: 1581.33 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.10463773] and score 2 is 1.0
+Round   0, Average loss 0.626, Acc 0.567
+score 1 is [0.11140341] and score 2 is 1.0
+Round   1, Average loss 0.626, Acc 0.567
+score 1 is [0.03912137] and score 2 is 1.0
+Round   2, Average loss 0.640, Acc 0.567
+score 1 is [0.00361428] and score 2 is 1.0
+Round   3, Average loss 0.762, Acc 0.567
+score 1 is [0.15153475] and score 2 is 1.0
+Round   4, Average loss 0.627, Acc 0.567
+7.842882871627808 s
+Memory used: 1400.38 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [5.9892935e-10] and score 2 is 1.0
+Round   0, Average loss 0.712, Acc 0.567
+score 1 is [8.2726936e-10] and score 2 is 1.0
+Round   1, Average loss 0.719, Acc 0.567
+score 1 is [1.124327e-09] and score 2 is 1.0
+Round   2, Average loss 0.682, Acc 0.567
+score 1 is [5.159054e-09] and score 2 is 1.0
+Round   3, Average loss 0.678, Acc 0.567
+score 1 is [1.9798638e-09] and score 2 is 1.0
+Round   4, Average loss 0.681, Acc 0.567
+9.684104204177856 s
+Memory used: 1437.91 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.49408567] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.978
+score 1 is [0.44553602] and score 2 is 0.0
+Round   1, Average loss 0.000, Acc 0.978
+score 1 is [0.53871083] and score 2 is 1.0
+Round   2, Average loss 0.005, Acc 0.978
+score 1 is [0.44380036] and score 2 is 0.0
+Round   3, Average loss 0.003, Acc 0.978
+score 1 is [0.42135847] and score 2 is 1.0
+Round   4, Average loss 0.000, Acc 0.978
+10.178239583969116 s
+Memory used: 1400.81 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [1.5838919e-09] and score 2 is 1.0
+Round   0, Average loss 0.000, Acc 0.978
+score 1 is [1.2055114e-09] and score 2 is 0.0
+Round   1, Average loss 0.167, Acc 0.978
+score 1 is [1.42344865e-08] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.978
+score 1 is [4.63613e-09] and score 2 is 1.0
+Round   3, Average loss 0.001, Acc 0.978
+score 1 is [2.7314535e-09] and score 2 is 1.0
+Round   4, Average loss 0.002, Acc 0.978
+9.610191345214844 s
+Memory used: 1446.19 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.10663256] and score 2 is 1.0
+Round   0, Average loss 0.697, Acc 0.584
+score 1 is [0.08778472] and score 2 is 1.0
+Round   1, Average loss 0.684, Acc 0.584
+score 1 is [0.11232303] and score 2 is 1.0
+Round   2, Average loss 0.683, Acc 0.584
+score 1 is [0.11681105] and score 2 is 1.0
+Round   3, Average loss 0.690, Acc 0.584
+score 1 is [0.16066869] and score 2 is 1.0
+Round   4, Average loss 0.687, Acc 0.584
+9.785573244094849 s
+Memory used: 1452.44 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00505805] and score 2 is 1.0
+Round   0, Average loss 0.690, Acc 0.554
+score 1 is [0.0053543] and score 2 is 1.0
+Round   1, Average loss 0.690, Acc 0.554
+score 1 is [0.02343241] and score 2 is 1.0
+Round   2, Average loss 0.687, Acc 0.554
+score 1 is [0.00213906] and score 2 is 1.0
+Round   3, Average loss 0.689, Acc 0.554
+score 1 is [0.01128791] and score 2 is 1.0
+Round   4, Average loss 0.694, Acc 0.554
+9.895401239395142 s
+Memory used: 1481.41 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.46542475] and score 2 is 1.0
+Round   0, Average loss 0.000, Acc 0.970
+score 1 is [0.43137828] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.970
+score 1 is [0.5268946] and score 2 is 0.0
+Round   2, Average loss 0.003, Acc 0.970
+score 1 is [0.47369868] and score 2 is 1.0
+Round   3, Average loss 0.007, Acc 0.970
+score 1 is [0.11526988] and score 2 is 1.0
+Round   4, Average loss 0.284, Acc 0.970
+9.463901996612549 s
+Memory used: 1439.88 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00485168] and score 2 is 0.0
+Round   0, Average loss 0.001, Acc 0.970
+score 1 is [0.00269404] and score 2 is 0.0
+Round   1, Average loss 0.003, Acc 0.970
+score 1 is [0.00475246] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.970
+score 1 is [0.00515241] and score 2 is 1.0
+Round   3, Average loss 0.000, Acc 0.970
+score 1 is [0.00375617] and score 2 is 0.0
+Round   4, Average loss 0.227, Acc 0.970
+9.850452899932861 s
+Memory used: 1485.33 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.34246993] and score 2 is 1.0
+Round   0, Average loss 0.729, Acc 0.568
+score 1 is [0.38535267] and score 2 is 1.0
+Round   1, Average loss 0.651, Acc 0.568
+score 1 is [0.26186028] and score 2 is 1.0
+Round   2, Average loss 0.724, Acc 0.568
+score 1 is [0.30422792] and score 2 is 1.0
+Round   3, Average loss 0.653, Acc 0.568
+score 1 is [0.31896707] and score 2 is 1.0
+Round   4, Average loss 0.711, Acc 0.568
+9.373741865158081 s
+Memory used: 1374.54 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.11434966] and score 2 is 1.0
+Round   0, Average loss 0.768, Acc 0.433
+score 1 is [0.0523595] and score 2 is 1.0
+Round   1, Average loss 0.769, Acc 0.433
+score 1 is [0.12553754] and score 2 is 1.0
+Round   2, Average loss 0.770, Acc 0.433
+score 1 is [0.05980362] and score 2 is 1.0
+Round   3, Average loss 0.627, Acc 0.433
+score 1 is [0.06137137] and score 2 is 1.0
+Round   4, Average loss 0.623, Acc 0.433
+9.509032249450684 s
+Memory used: 1410.79 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.29471406] and score 2 is 0.0
+Round   0, Average loss 0.050, Acc 0.971
+score 1 is [0.2903435] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.971
+score 1 is [0.34227395] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.971
+score 1 is [0.29673734] and score 2 is 1.0
+Round   3, Average loss 0.000, Acc 0.971
+score 1 is [0.52424407] and score 2 is 1.0
+Round   4, Average loss 0.005, Acc 0.971
+10.061811923980713 s
+Memory used: 1374.39 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.10616939] and score 2 is 0.0
+Round   0, Average loss 0.008, Acc 0.971
+score 1 is [0.14576615] and score 2 is 1.0
+Round   1, Average loss 0.000, Acc 0.971
+score 1 is [0.17168325] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.971
+score 1 is [0.06231923] and score 2 is 0.0
+Round   3, Average loss 0.058, Acc 0.971
+score 1 is [0.12224707] and score 2 is 0.0
+Round   4, Average loss 0.001, Acc 0.971
+9.85819673538208 s
+Memory used: 1419.95 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.05113208] and score 2 is 0.0
+Round   0, Average loss 0.665, Acc 0.433
+score 1 is [0.18632124] and score 2 is 1.0
+Round   1, Average loss 0.729, Acc 0.433
+score 1 is [0.30994546] and score 2 is 1.0
+Round   2, Average loss 0.661, Acc 0.433
+score 1 is [0.4285389] and score 2 is 1.0
+Round   3, Average loss 0.670, Acc 0.433
+score 1 is [0.14663489] and score 2 is 1.0
+Round   4, Average loss 0.726, Acc 0.433
+10.798979043960571 s
+Memory used: 1377.93 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.04553942] and score 2 is 1.0
+Round   0, Average loss 0.740, Acc 0.433
+score 1 is [0.0313313] and score 2 is 0.0
+Round   1, Average loss 0.648, Acc 0.433
+score 1 is [0.05690792] and score 2 is 1.0
+Round   2, Average loss 0.638, Acc 0.433
+score 1 is [0.05136296] and score 2 is 1.0
+Round   3, Average loss 0.738, Acc 0.433
+score 1 is [0.06144792] and score 2 is 0.0
+Round   4, Average loss 0.659, Acc 0.433
+11.29743242263794 s
+Memory used: 1411.11 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.3139858] and score 2 is 1.0
+Round   0, Average loss 0.165, Acc 0.964
+score 1 is [0.21634491] and score 2 is 0.0
+Round   1, Average loss 0.239, Acc 0.964
+score 1 is [0.2901629] and score 2 is 1.0
+Round   2, Average loss 0.058, Acc 0.964
+score 1 is [0.06755634] and score 2 is 1.0
+Round   3, Average loss 0.144, Acc 0.964
+score 1 is [0.31451505] and score 2 is 1.0
+Round   4, Average loss 0.032, Acc 0.964
+10.837816953659058 s
+Memory used: 1380.41 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.06514374] and score 2 is 1.0
+Round   0, Average loss 0.145, Acc 0.964
+score 1 is [0.05654176] and score 2 is 0.0
+Round   1, Average loss 0.145, Acc 0.964
+score 1 is [0.04290703] and score 2 is 0.0
+Round   2, Average loss 0.145, Acc 0.964
+score 1 is [0.11009569] and score 2 is 1.0
+Round   3, Average loss 0.088, Acc 0.964
+score 1 is [0.05732968] and score 2 is 0.0
+Round   4, Average loss 0.144, Acc 0.964
+11.546108484268188 s
+Memory used: 1411.95 MB
+
+dataset: unsw
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00205295] and score 2 is 1.0
+Round   0, Average loss 2.453, Acc 0.010
+score 1 is [0.00139892] and score 2 is 1.0
+Round   1, Average loss 2.439, Acc 0.010
+score 1 is [0.00096358] and score 2 is 1.0
+Round   2, Average loss 2.369, Acc 0.010
+score 1 is [0.00131768] and score 2 is 1.0
+Round   3, Average loss 2.350, Acc 0.010
+score 1 is [0.00200517] and score 2 is 1.0
+Round   4, Average loss 2.318, Acc 0.010
+9.40394926071167 s
+Memory used: 1266.81 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [3.5480692e-09] and score 2 is 1.0
+Round   0, Average loss 2.240, Acc 0.059
+score 1 is [6.727576e-09] and score 2 is 1.0
+Round   1, Average loss 2.217, Acc 0.059
+score 1 is [1.797508e-09] and score 2 is 1.0
+Round   2, Average loss 2.248, Acc 0.059
+score 1 is [7.489472e-09] and score 2 is 1.0
+Round   3, Average loss 2.253, Acc 0.059
+score 1 is [4.9674225e-09] and score 2 is 1.0
+Round   4, Average loss 2.322, Acc 0.059
+9.864259958267212 s
+Memory used: 1290.10 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.54661113] and score 2 is 1.0
+Round   0, Average loss 0.827, Acc 0.736
+score 1 is [0.42525077] and score 2 is 0.0
+Round   1, Average loss 1.047, Acc 0.736
+score 1 is [0.43257022] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.736
+score 1 is [0.34569305] and score 2 is 1.0
+Round   3, Average loss 0.870, Acc 0.736
+score 1 is [0.54030454] and score 2 is 0.0
+Round   4, Average loss 0.004, Acc 0.736
+7.317290544509888 s
+Memory used: 1265.12 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [3.7947583e-09] and score 2 is 0.0
+Round   0, Average loss 0.000, Acc 0.736
+score 1 is [6.8352426e-09] and score 2 is 1.0
+Round   1, Average loss 1.254, Acc 0.736
+score 1 is [5.721166e-09] and score 2 is 0.0
+Round   2, Average loss 0.006, Acc 0.736
+score 1 is [9.315174e-10] and score 2 is 0.0
+Round   3, Average loss 2.964, Acc 0.736
+score 1 is [3.1934528e-09] and score 2 is 0.0
+Round   4, Average loss 0.882, Acc 0.736
+9.823558330535889 s
+Memory used: 1289.91 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.8288011] and score 2 is 0.0
+Round   0, Average loss 2.252, Acc 0.236
+score 1 is [0.8533517] and score 2 is 0.0
+Round   1, Average loss 2.236, Acc 0.236
+score 1 is [0.7814994] and score 2 is 0.0
+Round   2, Average loss 2.237, Acc 0.236
+score 1 is [0.5637439] and score 2 is 1.0
+Round   3, Average loss 2.207, Acc 0.236
+score 1 is [0.78494334] and score 2 is 0.0
+Round   4, Average loss 2.419, Acc 0.236
+11.090898036956787 s
+Memory used: 1422.92 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.7830517] and score 2 is 0.0
+Round   0, Average loss 2.343, Acc 0.197
+score 1 is [0.81112325] and score 2 is 0.0
+Round   1, Average loss 2.348, Acc 0.197
+score 1 is [0.81566745] and score 2 is 0.0
+Round   2, Average loss 2.234, Acc 0.197
+score 1 is [0.7703465] and score 2 is 0.0
+Round   3, Average loss 2.341, Acc 0.197
+score 1 is [0.89153546] and score 2 is 0.0
+Round   4, Average loss 2.244, Acc 0.197
+11.1725172996521 s
+Memory used: 1476.46 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4847936] and score 2 is 0.0
+Round   0, Average loss 0.700, Acc 0.720
+score 1 is [0.4807122] and score 2 is 0.0
+Round   1, Average loss 0.822, Acc 0.720
+score 1 is [0.55112576] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.720
+score 1 is [0.5060782] and score 2 is 0.0
+Round   3, Average loss 1.328, Acc 0.720
+score 1 is [0.5038332] and score 2 is 0.0
+Round   4, Average loss 1.310, Acc 0.720
+10.498364925384521 s
+Memory used: 1429.25 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.48435697] and score 2 is 0.0
+Round   0, Average loss 0.001, Acc 0.720
+score 1 is [0.51518166] and score 2 is 0.0
+Round   1, Average loss 0.005, Acc 0.720
+score 1 is [0.48779833] and score 2 is 0.0
+Round   2, Average loss 1.816, Acc 0.720
+score 1 is [0.48753938] and score 2 is 0.0
+Round   3, Average loss 1.538, Acc 0.720
+score 1 is [0.3777141] and score 2 is 0.0
+Round   4, Average loss 0.764, Acc 0.720
+10.098991870880127 s
+Memory used: 1453.90 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.8789666] and score 2 is 0.0
+Round   0, Average loss 2.238, Acc 0.010
+score 1 is [0.86850274] and score 2 is 0.0
+Round   1, Average loss 2.241, Acc 0.010
+score 1 is [0.8471881] and score 2 is 0.0
+Round   2, Average loss 2.388, Acc 0.010
+score 1 is [0.8287269] and score 2 is 0.0
+Round   3, Average loss 2.243, Acc 0.010
+score 1 is [0.65335375] and score 2 is 0.0
+Round   4, Average loss 2.368, Acc 0.010
+10.335741996765137 s
+Memory used: 1423.95 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.8721744] and score 2 is 0.0
+Round   0, Average loss 2.193, Acc 0.294
+score 1 is [0.8627604] and score 2 is 0.0
+Round   1, Average loss 2.315, Acc 0.294
+score 1 is [0.8890952] and score 2 is 0.0
+Round   2, Average loss 2.241, Acc 0.294
+score 1 is [0.85213405] and score 2 is 0.0
+Round   3, Average loss 2.373, Acc 0.294
+score 1 is [0.8984645] and score 2 is 0.0
+Round   4, Average loss 2.326, Acc 0.294
+10.438681840896606 s
+Memory used: 1459.82 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.5015254] and score 2 is 0.0
+Round   0, Average loss 2.873, Acc 0.711
+score 1 is [0.34729075] and score 2 is 0.0
+Round   1, Average loss 0.004, Acc 0.711
+score 1 is [0.40682742] and score 2 is 1.0
+Round   2, Average loss 0.000, Acc 0.711
+score 1 is [0.30292448] and score 2 is 0.0
+Round   3, Average loss 0.813, Acc 0.711
+score 1 is [0.382614] and score 2 is 0.0
+Round   4, Average loss 0.148, Acc 0.711
+9.011280059814453 s
+Memory used: 1421.90 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.6380456] and score 2 is 0.0
+Round   0, Average loss 1.560, Acc 0.711
+score 1 is [0.46892697] and score 2 is 0.0
+Round   1, Average loss 2.019, Acc 0.711
+score 1 is [0.5685487] and score 2 is 0.0
+Round   2, Average loss 0.252, Acc 0.711
+score 1 is [0.51025903] and score 2 is 0.0
+Round   3, Average loss 1.006, Acc 0.711
+score 1 is [0.7027465] and score 2 is 0.0
+Round   4, Average loss 0.001, Acc 0.711
+11.363900184631348 s
+Memory used: 1454.41 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.92995846] and score 2 is 0.0
+Round   0, Average loss 2.361, Acc 0.008
+score 1 is [0.81104136] and score 2 is 0.0
+Round   1, Average loss 2.210, Acc 0.008
+score 1 is [0.82232773] and score 2 is 0.0
+Round   2, Average loss 2.216, Acc 0.008
+score 1 is [0.80157745] and score 2 is 0.0
+Round   3, Average loss 2.345, Acc 0.008
+score 1 is [0.93211925] and score 2 is 0.0
+Round   4, Average loss 2.417, Acc 0.008
+9.351858854293823 s
+Memory used: 1437.67 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.9069687] and score 2 is 0.0
+Round   0, Average loss 2.353, Acc 0.007
+score 1 is [0.82290506] and score 2 is 0.0
+Round   1, Average loss 2.354, Acc 0.007
+score 1 is [0.8716072] and score 2 is 0.0
+Round   2, Average loss 2.363, Acc 0.007
+score 1 is [0.83921677] and score 2 is 0.0
+Round   3, Average loss 2.352, Acc 0.007
+score 1 is [0.94530666] and score 2 is 0.0
+Round   4, Average loss 2.355, Acc 0.007
+10.15514349937439 s
+Memory used: 1460.96 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4438102] and score 2 is 1.0
+Round   0, Average loss 1.336, Acc 0.711
+score 1 is [0.4700938] and score 2 is 0.0
+Round   1, Average loss 0.084, Acc 0.711
+score 1 is [0.45089823] and score 2 is 0.0
+Round   2, Average loss 0.007, Acc 0.711
+score 1 is [0.42272466] and score 2 is 0.0
+Round   3, Average loss 2.322, Acc 0.711
+score 1 is [0.5015345] and score 2 is 0.0
+Round   4, Average loss 2.270, Acc 0.711
+10.420793533325195 s
+Memory used: 1415.09 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.61693084] and score 2 is 0.0
+Round   0, Average loss 0.009, Acc 0.711
+score 1 is [0.35290918] and score 2 is 0.0
+Round   1, Average loss 0.009, Acc 0.711
+score 1 is [0.5235429] and score 2 is 0.0
+Round   2, Average loss 0.009, Acc 0.711
+score 1 is [0.46367887] and score 2 is 0.0
+Round   3, Average loss 0.001, Acc 0.711
+score 1 is [0.6394191] and score 2 is 0.0
+Round   4, Average loss 1.074, Acc 0.711
+9.497825384140015 s
+Memory used: 1457.26 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00164373] and score 2 is 1.0
+Round   0, Average loss 2.293, Acc 0.006
+score 1 is [0.00105767] and score 2 is 1.0
+Round   1, Average loss 2.291, Acc 0.006
+score 1 is [0.00136933] and score 2 is 1.0
+Round   2, Average loss 2.366, Acc 0.006
+score 1 is [0.00331916] and score 2 is 1.0
+Round   3, Average loss 2.286, Acc 0.006
+score 1 is [0.00237016] and score 2 is 1.0
+Round   4, Average loss 2.255, Acc 0.006
+7.504884958267212 s
+Memory used: 1283.02 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [5.7653304e-10] and score 2 is 1.0
+Round   0, Average loss 2.306, Acc 0.009
+score 1 is [5.7189893e-09] and score 2 is 1.0
+Round   1, Average loss 2.419, Acc 0.009
+score 1 is [7.3842417e-09] and score 2 is 1.0
+Round   2, Average loss 2.309, Acc 0.009
+score 1 is [1.6854239e-09] and score 2 is 1.0
+Round   3, Average loss 2.261, Acc 0.009
+score 1 is [5.7211547e-09] and score 2 is 1.0
+Round   4, Average loss 2.309, Acc 0.009
+9.280249834060669 s
+Memory used: 1321.82 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.4568407] and score 2 is 0.0
+Round   0, Average loss 1.481, Acc 0.714
+score 1 is [0.46796227] and score 2 is 1.0
+Round   1, Average loss 1.147, Acc 0.714
+score 1 is [0.5215491] and score 2 is 0.0
+Round   2, Average loss 1.184, Acc 0.714
+score 1 is [0.25878915] and score 2 is 1.0
+Round   3, Average loss 0.829, Acc 0.714
+score 1 is [0.46967888] and score 2 is 0.0
+Round   4, Average loss 0.956, Acc 0.714
+10.30060076713562 s
+Memory used: 1282.62 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [2.405917e-09] and score 2 is 0.0
+Round   0, Average loss 0.029, Acc 0.714
+score 1 is [3.4385423e-09] and score 2 is 1.0
+Round   1, Average loss 1.375, Acc 0.714
+score 1 is [4.3465294e-09] and score 2 is 0.0
+Round   2, Average loss 0.002, Acc 0.714
+score 1 is [1.4302481e-09] and score 2 is 1.0
+Round   3, Average loss 0.000, Acc 0.714
+score 1 is [5.355278e-09] and score 2 is 0.0
+Round   4, Average loss 0.026, Acc 0.714
+10.144664764404297 s
+Memory used: 1334.23 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.1197082] and score 2 is 1.0
+Round   0, Average loss 2.263, Acc 0.005
+score 1 is [0.10500871] and score 2 is 1.0
+Round   1, Average loss 2.322, Acc 0.005
+score 1 is [0.08618483] and score 2 is 1.0
+Round   2, Average loss 2.360, Acc 0.005
+score 1 is [0.06999496] and score 2 is 1.0
+Round   3, Average loss 2.301, Acc 0.005
+score 1 is [0.10210527] and score 2 is 1.0
+Round   4, Average loss 2.401, Acc 0.005
+8.091886043548584 s
+Memory used: 1323.44 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00502229] and score 2 is 1.0
+Round   0, Average loss 2.249, Acc 0.017
+score 1 is [0.0160103] and score 2 is 1.0
+Round   1, Average loss 2.289, Acc 0.017
+score 1 is [0.02840134] and score 2 is 1.0
+Round   2, Average loss 2.163, Acc 0.017
+score 1 is [0.03053427] and score 2 is 1.0
+Round   3, Average loss 2.228, Acc 0.017
+score 1 is [0.01097579] and score 2 is 1.0
+Round   4, Average loss 2.263, Acc 0.017
+7.800397157669067 s
+Memory used: 1363.68 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.45528322] and score 2 is 0.0
+Round   0, Average loss 0.004, Acc 0.696
+score 1 is [0.3071516] and score 2 is 1.0
+Round   1, Average loss 0.376, Acc 0.696
+score 1 is [0.3706441] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.696
+score 1 is [0.51188886] and score 2 is 0.0
+Round   3, Average loss 4.431, Acc 0.696
+score 1 is [0.42102236] and score 2 is 1.0
+Round   4, Average loss 0.000, Acc 0.696
+9.545615911483765 s
+Memory used: 1324.28 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.00747839] and score 2 is 1.0
+Round   0, Average loss 1.180, Acc 0.696
+score 1 is [0.00293029] and score 2 is 1.0
+Round   1, Average loss 1.625, Acc 0.696
+score 1 is [0.01812259] and score 2 is 0.0
+Round   2, Average loss 0.000, Acc 0.696
+score 1 is [0.00531064] and score 2 is 1.0
+Round   3, Average loss 0.017, Acc 0.696
+score 1 is [0.03630993] and score 2 is 0.0
+Round   4, Average loss 0.280, Acc 0.696
+9.332284212112427 s
+Memory used: 1362.64 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.21552666] and score 2 is 1.0
+Round   0, Average loss 2.263, Acc 0.176
+score 1 is [0.26418844] and score 2 is 1.0
+Round   1, Average loss 2.259, Acc 0.176
+score 1 is [0.2791195] and score 2 is 1.0
+Round   2, Average loss 2.228, Acc 0.176
+score 1 is [0.24164613] and score 2 is 1.0
+Round   3, Average loss 2.269, Acc 0.176
+score 1 is [0.22790246] and score 2 is 1.0
+Round   4, Average loss 2.460, Acc 0.176
+9.204763174057007 s
+Memory used: 1245.44 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.13353327] and score 2 is 1.0
+Round   0, Average loss 2.314, Acc 0.009
+score 1 is [0.1556769] and score 2 is 1.0
+Round   1, Average loss 2.387, Acc 0.009
+score 1 is [0.12002596] and score 2 is 1.0
+Round   2, Average loss 2.321, Acc 0.009
+score 1 is [0.18931958] and score 2 is 1.0
+Round   3, Average loss 2.239, Acc 0.009
+score 1 is [0.13243596] and score 2 is 1.0
+Round   4, Average loss 2.163, Acc 0.009
+10.542224168777466 s
+Memory used: 1287.86 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.2789673] and score 2 is 1.0
+Round   0, Average loss 2.633, Acc 0.701
+score 1 is [0.3806565] and score 2 is 0.0
+Round   1, Average loss 0.017, Acc 0.701
+score 1 is [0.29392648] and score 2 is 0.0
+Round   2, Average loss 0.013, Acc 0.701
+score 1 is [0.20022543] and score 2 is 1.0
+Round   3, Average loss 1.465, Acc 0.701
+score 1 is [0.3515708] and score 2 is 1.0
+Round   4, Average loss 0.088, Acc 0.701
+9.779414653778076 s
+Memory used: 1265.86 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.04389286] and score 2 is 1.0
+Round   0, Average loss 2.034, Acc 0.701
+score 1 is [0.15940161] and score 2 is 0.0
+Round   1, Average loss 0.002, Acc 0.701
+score 1 is [0.0412569] and score 2 is 1.0
+Round   2, Average loss 1.179, Acc 0.701
+score 1 is [0.03624274] and score 2 is 1.0
+Round   3, Average loss 1.243, Acc 0.701
+score 1 is [0.13808694] and score 2 is 0.0
+Round   4, Average loss 0.006, Acc 0.701
+9.974215507507324 s
+Memory used: 1287.09 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.12951732] and score 2 is 0.0
+Round   0, Average loss 2.255, Acc 0.063
+score 1 is [0.1283377] and score 2 is 0.0
+Round   1, Average loss 2.329, Acc 0.063
+score 1 is [0.12784179] and score 2 is 0.0
+Round   2, Average loss 2.384, Acc 0.063
+score 1 is [0.08600336] and score 2 is 1.0
+Round   3, Average loss 2.247, Acc 0.063
+score 1 is [0.11839914] and score 2 is 0.0
+Round   4, Average loss 2.379, Acc 0.063
+11.116318225860596 s
+Memory used: 1247.86 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.14592859] and score 2 is 0.0
+Round   0, Average loss 2.341, Acc 0.171
+score 1 is [0.07960816] and score 2 is 0.0
+Round   1, Average loss 2.335, Acc 0.171
+score 1 is [0.0352382] and score 2 is 1.0
+Round   2, Average loss 2.330, Acc 0.171
+score 1 is [0.11976802] and score 2 is 1.0
+Round   3, Average loss 2.351, Acc 0.171
+score 1 is [0.07394077] and score 2 is 1.0
+Round   4, Average loss 2.173, Acc 0.171
+10.74509334564209 s
+Memory used: 1306.27 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=1, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.3212226] and score 2 is 0.0
+Round   0, Average loss 0.512, Acc 0.690
+score 1 is [0.12348805] and score 2 is 0.0
+Round   1, Average loss 1.323, Acc 0.690
+score 1 is [0.36291295] and score 2 is 0.0
+Round   2, Average loss 0.125, Acc 0.690
+score 1 is [0.10363] and score 2 is 0.0
+Round   3, Average loss 0.833, Acc 0.690
+score 1 is [0.25917447] and score 2 is 0.0
+Round   4, Average loss 0.107, Acc 0.690
+10.47527551651001 s
+Memory used: 1254.08 MB
+
+True
+Namespace(epochs=5, num_users=1, local_ep=1, local_bs=1, lr=0.01, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.8, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=2, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=1, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=100, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+score 1 is [0.17754939] and score 2 is 0.0
+Round   0, Average loss 0.065, Acc 0.690
+score 1 is [0.09890073] and score 2 is 1.0
+Round   1, Average loss 0.091, Acc 0.690
+score 1 is [0.06145484] and score 2 is 0.0
+Round   2, Average loss 1.253, Acc 0.690
+score 1 is [0.11153106] and score 2 is 0.0
+Round   3, Average loss 1.255, Acc 0.690
+score 1 is [0.07673968] and score 2 is 1.0
+Round   4, Average loss 0.815, Acc 0.690
+10.337986707687378 s
+Memory used: 1293.27 MB
+

@@ -1,0 +1,1125 @@
+test3
+dataset: kdd
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497546] [ACC1 : 292/300=0.973333] [ACC2 : 8/300=0.026667]
+dnn acc is 1.0
+0.7508603
+[Epoch 31/300] [D loss: 0.000031] [G loss: 0.502399] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.062627845
+[Epoch 61/300] [D loss: -0.000042] [G loss: 0.501493] [ACC1 : 13/300=0.043333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.05327249
+[Epoch 91/300] [D loss: -0.000103] [G loss: 0.500685] [ACC1 : 15/300=0.050000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.09372961
+[Epoch 121/300] [D loss: -0.000034] [G loss: 0.500384] [ACC1 : 49/300=0.163333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.026628133
+[Epoch 151/300] [D loss: -0.000121] [G loss: 0.500109] [ACC1 : 208/300=0.693333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.054034717
+[Epoch 181/300] [D loss: -0.000071] [G loss: 0.500364] [ACC1 : 46/300=0.153333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.057286073
+[Epoch 211/300] [D loss: -0.000165] [G loss: 0.500259] [ACC1 : 40/300=0.133333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.030551735
+[Epoch 241/300] [D loss: -0.000114] [G loss: 0.500407] [ACC1 : 43/300=0.143333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07885089
+[Epoch 271/300] [D loss: -0.000161] [G loss: 0.500241] [ACC1 : 75/300=0.250000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.029575527
+Memory used: 513.55 MB
+Time used: 13.88 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497438] [ACC1 : 270/270=1.000000] [ACC2 : 0/270=0.000000]
+dnn acc is 1.0
+0.7355932
+[Epoch 31/300] [D loss: -0.000082] [G loss: 0.502374] [ACC1 : 0/270=0.000000] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+1.0530446
+[Epoch 61/300] [D loss: -0.000094] [G loss: 0.501791] [ACC1 : 0/270=0.000000] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+1.0002443
+[Epoch 91/300] [D loss: -0.000035] [G loss: 0.501217] [ACC1 : 0/270=0.000000] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+0.9878176
+[Epoch 121/300] [D loss: -0.000099] [G loss: 0.500701] [ACC1 : 1/270=0.003704] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+0.9529193
+[Epoch 151/300] [D loss: -0.000185] [G loss: 0.500368] [ACC1 : 50/270=0.185185] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+0.9712521
+[Epoch 181/300] [D loss: -0.000215] [G loss: 0.500391] [ACC1 : 83/270=0.307407] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+0.98400944
+[Epoch 211/300] [D loss: -0.000182] [G loss: 0.500359] [ACC1 : 107/270=0.396296] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+0.98305327
+[Epoch 241/300] [D loss: -0.000254] [G loss: 0.500319] [ACC1 : 84/270=0.311111] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+0.97994274
+[Epoch 271/300] [D loss: -0.000184] [G loss: 0.500263] [ACC1 : 102/270=0.377778] [ACC2 : 270/270=1.000000]
+dnn acc is 1.0
+0.9727166
+Memory used: 513.02 MB
+Time used: 11.44 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502381] [ACC1 : 14/113=0.123894] [ACC2 : 99/113=0.876106]
+dnn acc is 1.0
+0.7095455
+[Epoch 31/300] [D loss: -0.000175] [G loss: 0.502327] [ACC1 : 0/113=0.000000] [ACC2 : 113/113=1.000000]
+dnn acc is 1.0
+1.0071924
+[Epoch 61/300] [D loss: -0.000180] [G loss: 0.503286] [ACC1 : 0/113=0.000000] [ACC2 : 113/113=1.000000]
+dnn acc is 1.0
+1.025105
+[Epoch 91/300] [D loss: 0.000042] [G loss: 0.499924] [ACC1 : 11/113=0.097345] [ACC2 : 113/113=1.000000]
+dnn acc is 1.0
+0.8377777
+[Epoch 121/300] [D loss: 0.000022] [G loss: 0.498250] [ACC1 : 113/113=1.000000] [ACC2 : 0/113=0.000000]
+dnn acc is 1.0
+0.9611727
+[Epoch 151/300] [D loss: -0.000145] [G loss: 0.499899] [ACC1 : 112/113=0.991150] [ACC2 : 0/113=0.000000]
+dnn acc is 1.0
+0.99488133
+[Epoch 181/300] [D loss: 0.000092] [G loss: 0.500068] [ACC1 : 65/113=0.575221] [ACC2 : 0/113=0.000000]
+dnn acc is 1.0
+0.91217273
+[Epoch 211/300] [D loss: -0.000106] [G loss: 0.500336] [ACC1 : 7/113=0.061947] [ACC2 : 113/113=1.000000]
+dnn acc is 1.0
+0.9550532
+[Epoch 241/300] [D loss: 0.000001] [G loss: 0.500197] [ACC1 : 61/113=0.539823] [ACC2 : 0/113=0.000000]
+dnn acc is 1.0
+0.9663629
+[Epoch 271/300] [D loss: -0.000065] [G loss: 0.500238] [ACC1 : 45/113=0.398230] [ACC2 : 113/113=1.000000]
+dnn acc is 1.0
+0.98749775
+Memory used: 511.93 MB
+Time used: 12.65 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502525] [ACC1 : 0/14=0.000000] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+0.7565207
+[Epoch 31/300] [D loss: -0.000089] [G loss: 0.499998] [ACC1 : 10/14=0.714286] [ACC2 : 0/14=0.000000]
+dnn acc is 1.0
+1.1439718
+[Epoch 61/300] [D loss: -0.000157] [G loss: 0.500943] [ACC1 : 1/14=0.071429] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.1047605
+[Epoch 91/300] [D loss: 0.000022] [G loss: 0.500420] [ACC1 : 4/14=0.285714] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.1198415
+[Epoch 121/300] [D loss: 0.000002] [G loss: 0.501134] [ACC1 : 2/14=0.142857] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.1258652
+[Epoch 151/300] [D loss: -0.000073] [G loss: 0.500887] [ACC1 : 0/14=0.000000] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.0311376
+[Epoch 181/300] [D loss: -0.000010] [G loss: 0.500356] [ACC1 : 0/14=0.000000] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.1265533
+[Epoch 211/300] [D loss: 0.000003] [G loss: 0.500230] [ACC1 : 0/14=0.000000] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.0649388
+[Epoch 241/300] [D loss: 0.000014] [G loss: 0.500089] [ACC1 : 0/14=0.000000] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.12604
+[Epoch 271/300] [D loss: 0.000006] [G loss: 0.500489] [ACC1 : 0/14=0.000000] [ACC2 : 14/14=1.000000]
+dnn acc is 1.0
+1.0737379
+Memory used: 508.61 MB
+Time used: 10.54 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497543] [ACC1 : 226/300=0.753333] [ACC2 : 74/300=0.246667]
+dnn acc is 1.0
+0.7345215
+[Epoch 31/300] [D loss: -0.000006] [G loss: 0.501831] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.035530794
+[Epoch 61/300] [D loss: -0.000163] [G loss: 0.500583] [ACC1 : 14/300=0.046667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.11373286
+[Epoch 91/300] [D loss: -0.000236] [G loss: 0.500612] [ACC1 : 42/300=0.140000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.04277988
+[Epoch 121/300] [D loss: -0.000163] [G loss: 0.500621] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.177214
+[Epoch 151/300] [D loss: -0.000094] [G loss: 0.500183] [ACC1 : 123/300=0.410000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.028206285
+[Epoch 181/300] [D loss: -0.000172] [G loss: 0.500353] [ACC1 : 45/300=0.150000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.058075625
+[Epoch 211/300] [D loss: -0.000183] [G loss: 0.500349] [ACC1 : 40/300=0.133333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.0789687
+[Epoch 241/300] [D loss: -0.000230] [G loss: 0.500260] [ACC1 : 55/300=0.183333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.021209227
+[Epoch 271/300] [D loss: -0.000244] [G loss: 0.500391] [ACC1 : 64/300=0.213333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.03645103
+Memory used: 516.79 MB
+Time used: 14.02 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497474] [ACC1 : 269/300=0.896667] [ACC2 : 31/300=0.103333]
+dnn acc is 1.0
+0.76069343
+[Epoch 31/300] [D loss: -0.000082] [G loss: 0.502335] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.04731739
+[Epoch 61/300] [D loss: 0.000003] [G loss: 0.501019] [ACC1 : 13/300=0.043333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.112024896
+[Epoch 91/300] [D loss: -0.000180] [G loss: 0.500731] [ACC1 : 24/300=0.080000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.087228276
+[Epoch 121/300] [D loss: -0.000217] [G loss: 0.500141] [ACC1 : 253/300=0.843333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.09138708
+[Epoch 151/300] [D loss: -0.000235] [G loss: 0.500244] [ACC1 : 74/300=0.246667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.028644886
+[Epoch 181/300] [D loss: -0.000250] [G loss: 0.500244] [ACC1 : 73/300=0.243333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.046642423
+[Epoch 211/300] [D loss: -0.000292] [G loss: 0.500253] [ACC1 : 90/300=0.300000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.075177096
+[Epoch 241/300] [D loss: -0.000289] [G loss: 0.500229] [ACC1 : 94/300=0.313333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.022614451
+[Epoch 271/300] [D loss: -0.000302] [G loss: 0.500231] [ACC1 : 163/300=0.543333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.030400466
+Memory used: 512.27 MB
+Time used: 11.63 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497688] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 1.0
+0.7590941
+[Epoch 31/300] [D loss: -0.000027] [G loss: 0.499296] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 1.0
+0.34030136
+[Epoch 61/300] [D loss: -0.000035] [G loss: 0.499959] [ACC1 : 284/299=0.949833] [ACC2 : 6/299=0.020067]
+dnn acc is 1.0
+0.33538514
+[Epoch 91/300] [D loss: -0.000086] [G loss: 0.500067] [ACC1 : 295/299=0.986622] [ACC2 : 51/299=0.170569]
+dnn acc is 1.0
+0.3253334
+[Epoch 121/300] [D loss: -0.000018] [G loss: 0.499922] [ACC1 : 298/299=0.996656] [ACC2 : 0/299=0.000000]
+dnn acc is 1.0
+0.33770975
+[Epoch 151/300] [D loss: -0.000015] [G loss: 0.500113] [ACC1 : 29/299=0.096990] [ACC2 : 299/299=1.000000]
+dnn acc is 1.0
+0.3234559
+[Epoch 181/300] [D loss: -0.000026] [G loss: 0.500199] [ACC1 : 0/299=0.000000] [ACC2 : 299/299=1.000000]
+dnn acc is 1.0
+0.33093104
+[Epoch 211/300] [D loss: -0.000061] [G loss: 0.500014] [ACC1 : 231/299=0.772575] [ACC2 : 294/299=0.983278]
+dnn acc is 1.0
+0.32850805
+[Epoch 241/300] [D loss: -0.000037] [G loss: 0.500084] [ACC1 : 2/299=0.006689] [ACC2 : 299/299=1.000000]
+dnn acc is 1.0
+0.33377272
+[Epoch 271/300] [D loss: -0.000054] [G loss: 0.499860] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 1.0
+0.33582723
+Memory used: 514.68 MB
+Time used: 14.01 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='kdd', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497542] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.7430473
+[Epoch 31/300] [D loss: -0.000015] [G loss: 0.502055] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.15575756
+[Epoch 61/300] [D loss: -0.000347] [G loss: 0.500612] [ACC1 : 33/300=0.110000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.12812246
+[Epoch 91/300] [D loss: -0.000368] [G loss: 0.500325] [ACC1 : 206/300=0.686667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.2707841
+[Epoch 121/300] [D loss: -0.000097] [G loss: 0.500400] [ACC1 : 104/300=0.346667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.192539
+[Epoch 151/300] [D loss: -0.000057] [G loss: 0.500155] [ACC1 : 109/300=0.363333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.20653178
+[Epoch 181/300] [D loss: -0.000245] [G loss: 0.500174] [ACC1 : 203/300=0.676667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.22192185
+[Epoch 211/300] [D loss: -0.000246] [G loss: 0.500186] [ACC1 : 194/300=0.646667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.14521545
+[Epoch 241/300] [D loss: -0.000256] [G loss: 0.500130] [ACC1 : 253/300=0.843333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.19775218
+[Epoch 271/300] [D loss: -0.000210] [G loss: 0.500184] [ACC1 : 154/300=0.513333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.18762408
+Memory used: 619.74 MB
+Time used: 13.42 s
+dataset: mirai
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497422] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.40754664
+[Epoch 31/300] [D loss: -0.003830] [G loss: 0.503036] [ACC1 : 300/300=1.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.9933333333333333
+0.25749257
+[Epoch 61/300] [D loss: 0.002683] [G loss: 0.502463] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.25666666666666665
+0.43194845
+[Epoch 91/300] [D loss: -0.000130] [G loss: 0.499537] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.3547857
+[Epoch 121/300] [D loss: -0.000009] [G loss: 0.499269] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.329829
+[Epoch 151/300] [D loss: -0.000004] [G loss: 0.499352] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.37783468
+[Epoch 181/300] [D loss: -0.000016] [G loss: 0.499512] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.3439087
+[Epoch 211/300] [D loss: 0.000017] [G loss: 0.499355] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.323725
+[Epoch 241/300] [D loss: -0.000017] [G loss: 0.499326] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.3434837
+[Epoch 271/300] [D loss: -0.000006] [G loss: 0.499386] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.29440144
+Memory used: 528.61 MB
+Time used: 14.03 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497477] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.40651435
+[Epoch 31/300] [D loss: 0.001260] [G loss: 0.501696] [ACC1 : 242/300=0.806667] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.77585953
+[Epoch 61/300] [D loss: -0.000049] [G loss: 0.499927] [ACC1 : 295/300=0.983333] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.68128395
+[Epoch 91/300] [D loss: 0.000048] [G loss: 0.501083] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.7321443
+[Epoch 121/300] [D loss: 0.000000] [G loss: 0.501799] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.74087584
+[Epoch 151/300] [D loss: -0.000055] [G loss: 0.499591] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.7757561
+[Epoch 181/300] [D loss: -0.000018] [G loss: 0.500277] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.7364763
+[Epoch 211/300] [D loss: -0.000006] [G loss: 0.500377] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.7408342
+[Epoch 241/300] [D loss: -0.000003] [G loss: 0.500411] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.71569866
+[Epoch 271/300] [D loss: -0.000002] [G loss: 0.500397] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.7219377
+Memory used: 528.32 MB
+Time used: 12.98 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497610] [ACC1 : 2/117=0.017094] [ACC2 : 115/117=0.982906]
+dnn acc is 1.0
+0.40634176
+[Epoch 31/300] [D loss: -0.000810] [G loss: 0.500144] [ACC1 : 110/117=0.940171] [ACC2 : 0/117=0.000000]
+dnn acc is 1.0
+0.8034211
+[Epoch 61/300] [D loss: -0.001897] [G loss: 0.515248] [ACC1 : 0/117=0.000000] [ACC2 : 117/117=1.000000]
+dnn acc is 1.0
+0.8487117
+[Epoch 91/300] [D loss: 0.000279] [G loss: 0.498324] [ACC1 : 117/117=1.000000] [ACC2 : 0/117=0.000000]
+dnn acc is 1.0
+0.4930509
+[Epoch 121/300] [D loss: 0.000239] [G loss: 0.499965] [ACC1 : 18/117=0.153846] [ACC2 : 113/117=0.965812]
+dnn acc is 1.0
+0.7430349
+[Epoch 151/300] [D loss: -0.000039] [G loss: 0.498405] [ACC1 : 117/117=1.000000] [ACC2 : 0/117=0.000000]
+dnn acc is 1.0
+0.8185565
+[Epoch 181/300] [D loss: 0.000001] [G loss: 0.497973] [ACC1 : 117/117=1.000000] [ACC2 : 0/117=0.000000]
+dnn acc is 1.0
+0.73361886
+[Epoch 211/300] [D loss: 0.000033] [G loss: 0.497929] [ACC1 : 117/117=1.000000] [ACC2 : 0/117=0.000000]
+dnn acc is 1.0
+0.80197555
+[Epoch 241/300] [D loss: -0.000010] [G loss: 0.497925] [ACC1 : 117/117=1.000000] [ACC2 : 0/117=0.000000]
+dnn acc is 1.0
+0.69476056
+[Epoch 271/300] [D loss: 0.000003] [G loss: 0.497994] [ACC1 : 117/117=1.000000] [ACC2 : 0/117=0.000000]
+dnn acc is 1.0
+0.79443145
+Memory used: 526.78 MB
+Time used: 13.87 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502786] [ACC1 : 0/55=0.000000] [ACC2 : 55/55=1.000000]
+dnn acc is 1.0
+0.4052649
+[Epoch 31/300] [D loss: -0.000062] [G loss: 0.502113] [ACC1 : 36/55=0.654545] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.91527057
+[Epoch 61/300] [D loss: -0.003723] [G loss: 0.519814] [ACC1 : 0/55=0.000000] [ACC2 : 55/55=1.000000]
+dnn acc is 1.0
+0.7683798
+[Epoch 91/300] [D loss: -0.001108] [G loss: 0.499242] [ACC1 : 55/55=1.000000] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.81948656
+[Epoch 121/300] [D loss: 0.000086] [G loss: 0.498471] [ACC1 : 55/55=1.000000] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.7433963
+[Epoch 151/300] [D loss: -0.000040] [G loss: 0.499262] [ACC1 : 55/55=1.000000] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.77027756
+[Epoch 181/300] [D loss: 0.000065] [G loss: 0.495890] [ACC1 : 55/55=1.000000] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.78226596
+[Epoch 211/300] [D loss: -0.000056] [G loss: 0.498826] [ACC1 : 55/55=1.000000] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.80275756
+[Epoch 241/300] [D loss: -0.000006] [G loss: 0.497669] [ACC1 : 55/55=1.000000] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.7375608
+[Epoch 271/300] [D loss: 0.000012] [G loss: 0.497581] [ACC1 : 55/55=1.000000] [ACC2 : 0/55=0.000000]
+dnn acc is 1.0
+0.784298
+Memory used: 519.07 MB
+Time used: 11.03 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497620] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.4100262
+[Epoch 31/300] [D loss: -0.004018] [G loss: 0.501008] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.95
+0.4551829
+[Epoch 61/300] [D loss: 0.001594] [G loss: 0.497609] [ACC1 : 265/300=0.883333] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.3780701
+[Epoch 91/300] [D loss: -0.000283] [G loss: 0.499470] [ACC1 : 297/300=0.990000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.40430033
+[Epoch 121/300] [D loss: -0.000286] [G loss: 0.499413] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0033333333333333335
+0.40252212
+[Epoch 151/300] [D loss: -0.001030] [G loss: 0.500022] [ACC1 : 270/300=0.900000] [ACC2 : 69/300=0.230000]
+dnn acc is 0.0
+0.34921566
+[Epoch 181/300] [D loss: -0.000668] [G loss: 0.499442] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.6933333333333334
+0.37838963
+[Epoch 211/300] [D loss: 0.000342] [G loss: 0.498495] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.25722432
+[Epoch 241/300] [D loss: -0.000090] [G loss: 0.498570] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.3214202
+[Epoch 271/300] [D loss: -0.000068] [G loss: 0.499289] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.33602333
+Memory used: 527.59 MB
+Time used: 13.37 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.500284] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.4110611
+[Epoch 31/300] [D loss: -0.003238] [G loss: 0.503116] [ACC1 : 297/300=0.990000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.4953699
+[Epoch 61/300] [D loss: -0.007299] [G loss: 0.505352] [ACC1 : 297/300=0.990000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.46806285
+[Epoch 91/300] [D loss: -0.001001] [G loss: 0.500690] [ACC1 : 300/300=1.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.44598848
+[Epoch 121/300] [D loss: -0.000413] [G loss: 0.499389] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.42045778
+[Epoch 151/300] [D loss: 0.000108] [G loss: 0.499626] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.38795307
+[Epoch 181/300] [D loss: -0.000053] [G loss: 0.499477] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.4101906
+[Epoch 211/300] [D loss: 0.000033] [G loss: 0.499685] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.39660817
+[Epoch 241/300] [D loss: -0.000066] [G loss: 0.499522] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.40084362
+[Epoch 271/300] [D loss: 0.000007] [G loss: 0.499726] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.3993434
+Memory used: 529.16 MB
+Time used: 13.87 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497115] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.40291753
+[Epoch 31/300] [D loss: -0.002239] [G loss: 0.499814] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.5215485
+[Epoch 61/300] [D loss: -0.000122] [G loss: 0.498031] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.5234153
+[Epoch 91/300] [D loss: 0.000378] [G loss: 0.498646] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.48766974
+[Epoch 121/300] [D loss: -0.000534] [G loss: 0.499402] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.51798856
+[Epoch 151/300] [D loss: -0.000534] [G loss: 0.500642] [ACC1 : 198/300=0.660000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.5137624
+[Epoch 181/300] [D loss: -0.000370] [G loss: 0.500260] [ACC1 : 262/300=0.873333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.5086469
+[Epoch 211/300] [D loss: -0.000335] [G loss: 0.499972] [ACC1 : 300/300=1.000000] [ACC2 : 19/300=0.063333]
+dnn acc is 0.0
+0.49522185
+[Epoch 241/300] [D loss: -0.000141] [G loss: 0.500585] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.5172716
+[Epoch 271/300] [D loss: -0.000127] [G loss: 0.500481] [ACC1 : 3/300=0.010000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.5117322
+Memory used: 526.80 MB
+Time used: 15.83 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='mirai', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497716] [ACC1 : 298/300=0.993333] [ACC2 : 2/300=0.006667]
+dnn acc is 1.0
+0.40635243
+[Epoch 31/300] [D loss: -0.004072] [G loss: 0.503528] [ACC1 : 234/300=0.780000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.34864008
+[Epoch 61/300] [D loss: -0.001515] [G loss: 0.500410] [ACC1 : 265/300=0.883333] [ACC2 : 2/300=0.006667]
+dnn acc is 0.0
+0.46683475
+[Epoch 91/300] [D loss: 0.000001] [G loss: 0.500312] [ACC1 : 255/300=0.850000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.4282781
+[Epoch 121/300] [D loss: -0.000363] [G loss: 0.499329] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.4146469
+[Epoch 151/300] [D loss: -0.000575] [G loss: 0.499664] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.45357382
+[Epoch 181/300] [D loss: -0.000157] [G loss: 0.499358] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.3837301
+[Epoch 211/300] [D loss: 0.000444] [G loss: 0.499060] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.3314333
+[Epoch 241/300] [D loss: 0.001045] [G loss: 0.499444] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.2797735
+[Epoch 271/300] [D loss: 0.000873] [G loss: 0.500211] [ACC1 : 292/300=0.973333] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.2488135
+Memory used: 528.71 MB
+Time used: 16.04 s
+dataset: cic2017
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497595] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.75574416
+[Epoch 31/300] [D loss: -0.001655] [G loss: 0.503306] [ACC1 : 1/300=0.003333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.10443934
+[Epoch 61/300] [D loss: -0.000633] [G loss: 0.502449] [ACC1 : 73/300=0.243333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.08713046
+[Epoch 91/300] [D loss: -0.000773] [G loss: 0.504072] [ACC1 : 39/300=0.130000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.06512264
+[Epoch 121/300] [D loss: -0.002158] [G loss: 0.503284] [ACC1 : 71/300=0.236667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.083041534
+[Epoch 151/300] [D loss: -0.002841] [G loss: 0.502951] [ACC1 : 93/300=0.310000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07114434
+[Epoch 181/300] [D loss: -0.002106] [G loss: 0.502060] [ACC1 : 96/300=0.320000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.05490742
+[Epoch 211/300] [D loss: -0.000851] [G loss: 0.502991] [ACC1 : 3/300=0.010000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.06718717
+[Epoch 241/300] [D loss: -0.002757] [G loss: 0.502313] [ACC1 : 104/300=0.346667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.08740865
+[Epoch 271/300] [D loss: -0.002266] [G loss: 0.503551] [ACC1 : 85/300=0.283333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.10742578
+Memory used: 530.62 MB
+Time used: 14.74 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502932] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.7598694
+[Epoch 31/300] [D loss: -0.000760] [G loss: 0.499587] [ACC1 : 275/300=0.916667] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+1.545138
+[Epoch 61/300] [D loss: -0.000798] [G loss: 0.511197] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.9966666666666667
+1.3640335
+[Epoch 91/300] [D loss: -0.000040] [G loss: 0.500707] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+1.4331146
+[Epoch 121/300] [D loss: -0.000009] [G loss: 0.500848] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+1.4266734
+[Epoch 151/300] [D loss: -0.000001] [G loss: 0.501297] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+1.4999712
+[Epoch 181/300] [D loss: 0.000040] [G loss: 0.500878] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+1.4615519
+[Epoch 211/300] [D loss: -0.000017] [G loss: 0.501226] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+1.492305
+[Epoch 241/300] [D loss: 0.000013] [G loss: 0.500708] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+1.4310024
+[Epoch 271/300] [D loss: -0.000006] [G loss: 0.502213] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+1.4340273
+Memory used: 530.66 MB
+Time used: 18.46 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.498917] [ACC1 : 138/138=1.000000] [ACC2 : 0/138=0.000000]
+dnn acc is 0.0
+0.74636865
+[Epoch 31/300] [D loss: -0.001262] [G loss: 0.497319] [ACC1 : 138/138=1.000000] [ACC2 : 0/138=0.000000]
+dnn acc is 0.0
+1.563393
+[Epoch 61/300] [D loss: 0.000185] [G loss: 0.500685] [ACC1 : 69/138=0.500000] [ACC2 : 0/138=0.000000]
+dnn acc is 0.0
+1.5615258
+[Epoch 91/300] [D loss: 0.006169] [G loss: 0.513747] [ACC1 : 0/138=0.000000] [ACC2 : 138/138=1.000000]
+dnn acc is 0.0
+1.2601311
+[Epoch 121/300] [D loss: 0.000305] [G loss: 0.495383] [ACC1 : 138/138=1.000000] [ACC2 : 0/138=0.000000]
+dnn acc is 0.0
+1.5307609
+[Epoch 151/300] [D loss: -0.000289] [G loss: 0.504024] [ACC1 : 0/138=0.000000] [ACC2 : 138/138=1.000000]
+dnn acc is 0.0
+1.5217537
+[Epoch 181/300] [D loss: -0.000448] [G loss: 0.500979] [ACC1 : 2/138=0.014493] [ACC2 : 138/138=1.000000]
+dnn acc is 0.0
+1.5447236
+[Epoch 211/300] [D loss: -0.000240] [G loss: 0.501849] [ACC1 : 0/138=0.000000] [ACC2 : 138/138=1.000000]
+dnn acc is 0.0
+1.5636126
+[Epoch 241/300] [D loss: -0.000427] [G loss: 0.496371] [ACC1 : 138/138=1.000000] [ACC2 : 0/138=0.000000]
+dnn acc is 0.0
+1.4398646
+[Epoch 271/300] [D loss: -0.000091] [G loss: 0.504277] [ACC1 : 0/138=0.000000] [ACC2 : 138/138=1.000000]
+dnn acc is 0.0
+1.5324432
+Memory used: 526.40 MB
+Time used: 16.71 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497375] [ACC1 : 57/57=1.000000] [ACC2 : 0/57=0.000000]
+dnn acc is 0.0
+0.7625218
+[Epoch 31/300] [D loss: -0.000908] [G loss: 0.496526] [ACC1 : 57/57=1.000000] [ACC2 : 0/57=0.000000]
+dnn acc is 0.0
+1.5664268
+[Epoch 61/300] [D loss: 0.001801] [G loss: 0.466214] [ACC1 : 57/57=1.000000] [ACC2 : 0/57=0.000000]
+dnn acc is 0.0
+1.5501645
+[Epoch 91/300] [D loss: -0.001418] [G loss: 0.521671] [ACC1 : 0/57=0.000000] [ACC2 : 57/57=1.000000]
+dnn acc is 0.0
+1.5623146
+[Epoch 121/300] [D loss: -0.002163] [G loss: 0.477139] [ACC1 : 57/57=1.000000] [ACC2 : 0/57=0.000000]
+dnn acc is 0.0
+1.1828631
+[Epoch 151/300] [D loss: -0.000042] [G loss: 0.500826] [ACC1 : 0/57=0.000000] [ACC2 : 57/57=1.000000]
+dnn acc is 0.0
+1.5629139
+[Epoch 181/300] [D loss: -0.000651] [G loss: 0.534297] [ACC1 : 0/57=0.000000] [ACC2 : 57/57=1.000000]
+dnn acc is 0.0
+1.3690705
+[Epoch 211/300] [D loss: 0.000472] [G loss: 0.481390] [ACC1 : 57/57=1.000000] [ACC2 : 0/57=0.000000]
+dnn acc is 0.0
+1.5319822
+[Epoch 241/300] [D loss: 0.000010] [G loss: 0.498975] [ACC1 : 57/57=1.000000] [ACC2 : 0/57=0.000000]
+dnn acc is 0.0
+1.5623819
+[Epoch 271/300] [D loss: -0.000076] [G loss: 0.501327] [ACC1 : 0/57=0.000000] [ACC2 : 57/57=1.000000]
+dnn acc is 0.0
+1.5614638
+Memory used: 523.85 MB
+Time used: 15.92 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497617] [ACC1 : 247/300=0.823333] [ACC2 : 53/300=0.176667]
+dnn acc is 0.0
+0.75449157
+[Epoch 31/300] [D loss: -0.003558] [G loss: 0.503782] [ACC1 : 60/300=0.200000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.08864493
+[Epoch 61/300] [D loss: -0.002385] [G loss: 0.501616] [ACC1 : 269/300=0.896667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.08265788
+[Epoch 91/300] [D loss: -0.002308] [G loss: 0.502428] [ACC1 : 113/300=0.376667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.052873544
+[Epoch 121/300] [D loss: -0.001583] [G loss: 0.502429] [ACC1 : 91/300=0.303333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.047921084
+[Epoch 151/300] [D loss: -0.002632] [G loss: 0.502934] [ACC1 : 110/300=0.366667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.0651587
+[Epoch 181/300] [D loss: 0.000228] [G loss: 0.501381] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07367921
+[Epoch 211/300] [D loss: -0.000313] [G loss: 0.500363] [ACC1 : 190/300=0.633333] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.052890617
+[Epoch 241/300] [D loss: -0.000921] [G loss: 0.500990] [ACC1 : 182/300=0.606667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.0771563
+[Epoch 271/300] [D loss: -0.000985] [G loss: 0.501085] [ACC1 : 120/300=0.400000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.060415674
+Memory used: 531.66 MB
+Time used: 17.76 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502123] [ACC1 : 1/300=0.003333] [ACC2 : 299/300=0.996667]
+dnn acc is 0.0
+0.7565053
+[Epoch 31/300] [D loss: -0.002443] [G loss: 0.502854] [ACC1 : 55/300=0.183333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.10908849
+[Epoch 61/300] [D loss: -0.003325] [G loss: 0.502783] [ACC1 : 141/300=0.470000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.08924316
+[Epoch 91/300] [D loss: -0.003897] [G loss: 0.502222] [ACC1 : 271/300=0.903333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.06664517
+[Epoch 121/300] [D loss: -0.002657] [G loss: 0.502209] [ACC1 : 131/300=0.436667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.0963198
+[Epoch 151/300] [D loss: -0.000639] [G loss: 0.502669] [ACC1 : 3/300=0.010000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.075649224
+[Epoch 181/300] [D loss: -0.001718] [G loss: 0.502090] [ACC1 : 178/300=0.593333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.060525525
+[Epoch 211/300] [D loss: -0.002555] [G loss: 0.502167] [ACC1 : 162/300=0.540000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.061971005
+[Epoch 241/300] [D loss: -0.001289] [G loss: 0.504302] [ACC1 : 24/300=0.080000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.102085255
+[Epoch 271/300] [D loss: -0.000408] [G loss: 0.499674] [ACC1 : 257/300=0.856667] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.08094883
+Memory used: 531.41 MB
+Time used: 14.76 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.500329] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.75319827
+[Epoch 31/300] [D loss: -0.000459] [G loss: 0.497158] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.054380514
+[Epoch 61/300] [D loss: 0.000109] [G loss: 0.499377] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.054818217
+[Epoch 91/300] [D loss: -0.000865] [G loss: 0.499964] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.055278327
+[Epoch 121/300] [D loss: 0.000040] [G loss: 0.499334] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.056680042
+[Epoch 151/300] [D loss: 0.000259] [G loss: 0.499271] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.05658235
+[Epoch 181/300] [D loss: -0.000079] [G loss: 0.499572] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.065602235
+[Epoch 211/300] [D loss: -0.000417] [G loss: 0.500760] [ACC1 : 60/300=0.200000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.06072468
+[Epoch 241/300] [D loss: -0.000218] [G loss: 0.500646] [ACC1 : 27/300=0.090000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.06567742
+[Epoch 271/300] [D loss: -0.000035] [G loss: 0.500217] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.056909528
+Memory used: 532.73 MB
+Time used: 16.69 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='cic2017', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497828] [ACC1 : 297/300=0.990000] [ACC2 : 3/300=0.010000]
+dnn acc is 0.0
+0.75974447
+[Epoch 31/300] [D loss: -0.002015] [G loss: 0.501720] [ACC1 : 274/300=0.913333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.105417185
+[Epoch 61/300] [D loss: -0.001394] [G loss: 0.500765] [ACC1 : 294/300=0.980000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.18264197
+[Epoch 91/300] [D loss: 0.000279] [G loss: 0.499754] [ACC1 : 254/300=0.846667] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.07723603
+[Epoch 121/300] [D loss: 0.000249] [G loss: 0.499940] [ACC1 : 176/300=0.586667] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.026404647
+[Epoch 151/300] [D loss: 0.000141] [G loss: 0.499719] [ACC1 : 295/300=0.983333] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.07294338
+[Epoch 181/300] [D loss: -0.000073] [G loss: 0.499673] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.044409864
+[Epoch 211/300] [D loss: 0.000196] [G loss: 0.500277] [ACC1 : 3/300=0.010000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.04943474
+[Epoch 241/300] [D loss: 0.000108] [G loss: 0.499845] [ACC1 : 250/300=0.833333] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.034824163
+[Epoch 271/300] [D loss: -0.000096] [G loss: 0.499998] [ACC1 : 274/300=0.913333] [ACC2 : 230/300=0.766667]
+dnn acc is 0.0
+0.044046555
+Memory used: 532.69 MB
+Time used: 18.02 s
+dataset: unsw
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=0, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497576] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.43842763
+[Epoch 31/300] [D loss: -0.000082] [G loss: 0.501925] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07716901
+[Epoch 61/300] [D loss: -0.000280] [G loss: 0.500331] [ACC1 : 92/300=0.306667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.14691797
+[Epoch 91/300] [D loss: -0.000278] [G loss: 0.500247] [ACC1 : 91/300=0.303333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.04970363
+[Epoch 121/300] [D loss: -0.000222] [G loss: 0.500177] [ACC1 : 176/300=0.586667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.033612695
+[Epoch 151/300] [D loss: -0.000206] [G loss: 0.500214] [ACC1 : 53/300=0.176667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.10791538
+[Epoch 181/300] [D loss: -0.000213] [G loss: 0.500212] [ACC1 : 64/300=0.213333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.040244292
+[Epoch 211/300] [D loss: -0.000216] [G loss: 0.500185] [ACC1 : 124/300=0.413333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.059779257
+[Epoch 241/300] [D loss: -0.000237] [G loss: 0.500200] [ACC1 : 78/300=0.260000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.055260405
+[Epoch 271/300] [D loss: -0.000238] [G loss: 0.500192] [ACC1 : 81/300=0.270000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.029622946
+Memory used: 501.98 MB
+Time used: 8.01 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502614] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.43953404
+[Epoch 31/300] [D loss: -0.000055] [G loss: 0.501737] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 1.0
+0.8835387
+[Epoch 61/300] [D loss: -0.000104] [G loss: 0.501036] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.81774914
+[Epoch 91/300] [D loss: -0.000031] [G loss: 0.501058] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.8157928
+[Epoch 121/300] [D loss: -0.000008] [G loss: 0.500671] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.15
+0.7452423
+[Epoch 151/300] [D loss: -0.000021] [G loss: 0.500377] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.772239
+[Epoch 181/300] [D loss: -0.000035] [G loss: 0.500253] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.78839743
+[Epoch 211/300] [D loss: -0.000097] [G loss: 0.500184] [ACC1 : 75/300=0.250000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.7991013
+[Epoch 241/300] [D loss: -0.000138] [G loss: 0.500190] [ACC1 : 75/300=0.250000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.8182115
+[Epoch 271/300] [D loss: -0.000030] [G loss: 0.499961] [ACC1 : 168/300=0.560000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.857383
+Memory used: 504.79 MB
+Time used: 9.09 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.5, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497345] [ACC1 : 189/189=1.000000] [ACC2 : 0/189=0.000000]
+dnn acc is 1.0
+0.43842125
+[Epoch 31/300] [D loss: -0.000173] [G loss: 0.501929] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.90845084
+[Epoch 61/300] [D loss: -0.000033] [G loss: 0.501652] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.8185381
+[Epoch 91/300] [D loss: -0.000049] [G loss: 0.501365] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.8068203
+[Epoch 121/300] [D loss: -0.000002] [G loss: 0.501062] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.7677911
+[Epoch 151/300] [D loss: -0.000034] [G loss: 0.500718] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.773337
+[Epoch 181/300] [D loss: -0.000014] [G loss: 0.500720] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.81698626
+[Epoch 211/300] [D loss: -0.000050] [G loss: 0.500654] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.8206065
+[Epoch 241/300] [D loss: -0.000069] [G loss: 0.500478] [ACC1 : 0/189=0.000000] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.7982911
+[Epoch 271/300] [D loss: -0.000090] [G loss: 0.500369] [ACC1 : 14/189=0.074074] [ACC2 : 189/189=1.000000]
+dnn acc is 1.0
+0.78880143
+Memory used: 501.18 MB
+Time used: 7.80 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=1, alpha=0.25, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502250] [ACC1 : 63/63=1.000000] [ACC2 : 0/63=0.000000]
+dnn acc is 1.0
+0.44019058
+[Epoch 31/300] [D loss: -0.000254] [G loss: 0.501639] [ACC1 : 5/63=0.079365] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.9448497
+[Epoch 61/300] [D loss: 0.000337] [G loss: 0.500807] [ACC1 : 3/63=0.047619] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.88234484
+[Epoch 91/300] [D loss: -0.000209] [G loss: 0.501949] [ACC1 : 0/63=0.000000] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.9224286
+[Epoch 121/300] [D loss: -0.000003] [G loss: 0.501964] [ACC1 : 0/63=0.000000] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.8464433
+[Epoch 151/300] [D loss: -0.000025] [G loss: 0.500860] [ACC1 : 0/63=0.000000] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.83731157
+[Epoch 181/300] [D loss: -0.000001] [G loss: 0.501231] [ACC1 : 0/63=0.000000] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.8818892
+[Epoch 211/300] [D loss: -0.000013] [G loss: 0.500849] [ACC1 : 0/63=0.000000] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.86279124
+[Epoch 241/300] [D loss: 0.000002] [G loss: 0.500664] [ACC1 : 0/63=0.000000] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.8650898
+[Epoch 271/300] [D loss: -0.000008] [G loss: 0.501016] [ACC1 : 0/63=0.000000] [ACC2 : 63/63=1.000000]
+dnn acc is 1.0
+0.8948462
+Memory used: 499.96 MB
+Time used: 7.62 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=2, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497654] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.42925364
+[Epoch 31/300] [D loss: -0.000424] [G loss: 0.501563] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.06898852
+[Epoch 61/300] [D loss: -0.001016] [G loss: 0.500704] [ACC1 : 231/300=0.770000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.1617647
+[Epoch 91/300] [D loss: -0.000163] [G loss: 0.500805] [ACC1 : 15/300=0.050000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.054920617
+[Epoch 121/300] [D loss: -0.000116] [G loss: 0.499957] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.0
+0.1223452
+[Epoch 151/300] [D loss: -0.000116] [G loss: 0.500174] [ACC1 : 92/300=0.306667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.037147168
+[Epoch 181/300] [D loss: -0.000230] [G loss: 0.500209] [ACC1 : 92/300=0.306667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07487559
+[Epoch 211/300] [D loss: -0.000225] [G loss: 0.500240] [ACC1 : 93/300=0.310000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.085852295
+[Epoch 241/300] [D loss: -0.000238] [G loss: 0.500225] [ACC1 : 96/300=0.320000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07093003
+[Epoch 271/300] [D loss: -0.000249] [G loss: 0.500264] [ACC1 : 93/300=0.310000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.06630923
+Memory used: 503.29 MB
+Time used: 8.46 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=3, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.497425] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.43707836
+[Epoch 31/300] [D loss: -0.000287] [G loss: 0.500826] [ACC1 : 69/300=0.230000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.04399266
+[Epoch 61/300] [D loss: -0.000119] [G loss: 0.500171] [ACC1 : 160/300=0.533333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.0998404
+[Epoch 91/300] [D loss: -0.000315] [G loss: 0.500479] [ACC1 : 93/300=0.310000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.15605778
+[Epoch 121/300] [D loss: -0.000349] [G loss: 0.500556] [ACC1 : 91/300=0.303333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07036082
+[Epoch 151/300] [D loss: -0.000263] [G loss: 0.500594] [ACC1 : 92/300=0.306667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.16389038
+[Epoch 181/300] [D loss: -0.000383] [G loss: 0.500424] [ACC1 : 94/300=0.313333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.054463055
+[Epoch 211/300] [D loss: -0.000170] [G loss: 0.500843] [ACC1 : 17/300=0.056667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.13145997
+[Epoch 241/300] [D loss: -0.000295] [G loss: 0.500379] [ACC1 : 92/300=0.306667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.07005345
+[Epoch 271/300] [D loss: -0.000326] [G loss: 0.500382] [ACC1 : 92/300=0.306667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.080315694
+Memory used: 502.75 MB
+Time used: 8.65 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=4, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.500423] [ACC1 : 279/299=0.933110] [ACC2 : 20/299=0.066890]
+dnn acc is 0.0
+0.4337924
+[Epoch 31/300] [D loss: -0.000042] [G loss: 0.498096] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 0.0
+0.09892595
+[Epoch 61/300] [D loss: 0.000027] [G loss: 0.499156] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 0.0
+0.098763
+[Epoch 91/300] [D loss: -0.000038] [G loss: 0.499800] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 0.0
+0.09966024
+[Epoch 121/300] [D loss: 0.000019] [G loss: 0.499723] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 0.0
+0.0956147
+[Epoch 151/300] [D loss: 0.000006] [G loss: 0.500005] [ACC1 : 101/299=0.337793] [ACC2 : 213/299=0.712375]
+dnn acc is 0.0
+0.097856335
+[Epoch 181/300] [D loss: 0.000001] [G loss: 0.499923] [ACC1 : 295/299=0.986622] [ACC2 : 0/299=0.000000]
+dnn acc is 0.0
+0.089419596
+[Epoch 211/300] [D loss: 0.000038] [G loss: 0.499775] [ACC1 : 299/299=1.000000] [ACC2 : 0/299=0.000000]
+dnn acc is 0.0
+0.09682799
+[Epoch 241/300] [D loss: 0.000048] [G loss: 0.500141] [ACC1 : 0/299=0.000000] [ACC2 : 299/299=1.000000]
+dnn acc is 0.0
+0.09474266
+[Epoch 271/300] [D loss: 0.000039] [G loss: 0.499880] [ACC1 : 236/299=0.789298] [ACC2 : 0/299=0.000000]
+dnn acc is 0.0
+0.09746855
+Memory used: 502.39 MB
+Time used: 8.30 s
+True
+Namespace(epochs=300, num_users=1, local_ep=1, local_bs=1, lr=0.003, eval=1, iid=1, save_change=0, save_ablation=0, model='dnn', device='cuda', decay=0.9, decay_epochs=20, test_num=-1, dataset='unsw', recon_epochs=300, attack=0, defense=5, alpha=1.0, defense_epochs=40, defense_lr=0.2, g_value=1e-15, max_dis=1, load_model=0, save_model=0, save_plot=0, save_recon=0, klam=4, upper=0.65, n_epochs=300, gan_lr=0.001, b1=0.5, b2=0.999, clip_value=0.01, n_critic=1, pretrain=0, use_ori=0)
+True
+[Epoch 1/300] [D loss: 0.000000] [G loss: 0.502515] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.43238372
+[Epoch 31/300] [D loss: 0.000350] [G loss: 0.499865] [ACC1 : 138/300=0.460000] [ACC2 : 0/300=0.000000]
+dnn acc is 1.0
+0.027466694
+[Epoch 61/300] [D loss: -0.000645] [G loss: 0.500348] [ACC1 : 236/300=0.786667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.097543955
+[Epoch 91/300] [D loss: -0.000380] [G loss: 0.500432] [ACC1 : 191/300=0.636667] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.070229635
+[Epoch 121/300] [D loss: -0.000271] [G loss: 0.500121] [ACC1 : 222/300=0.740000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.10132584
+[Epoch 151/300] [D loss: 0.000093] [G loss: 0.500075] [ACC1 : 75/300=0.250000] [ACC2 : 4/300=0.013333]
+dnn acc is 0.0
+0.09268838
+[Epoch 181/300] [D loss: -0.000038] [G loss: 0.500091] [ACC1 : 58/300=0.193333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.11333333333333333
+0.030205492
+[Epoch 211/300] [D loss: -0.000006] [G loss: 0.500245] [ACC1 : 1/300=0.003333] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.09534251
+[Epoch 241/300] [D loss: -0.000066] [G loss: 0.499903] [ACC1 : 300/300=1.000000] [ACC2 : 0/300=0.000000]
+dnn acc is 0.84
+0.029422041
+[Epoch 271/300] [D loss: -0.000090] [G loss: 0.500410] [ACC1 : 0/300=0.000000] [ACC2 : 300/300=1.000000]
+dnn acc is 0.0
+0.09104244
+Memory used: 502.18 MB
+Time used: 8.01 s

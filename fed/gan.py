@@ -144,8 +144,8 @@ with open("./kitsune_model/__model__{}.pkl".format(opt.dataset), 'rb') as f:
     results=net.execute(mal_x)
 
 
-print(x,result,results,x.shape)
-print(ben_x.shape,mal_x.shape)
+# print(x,result,results,x.shape)
+# print(ben_x.shape,mal_x.shape)
 
 # Loss function
 adversarial_loss = torch.nn.BCELoss()
@@ -224,7 +224,7 @@ for epoch in range(opt.n_epochs):
             g_loss.backward()
             if pause==0: optimizer_G.step()
 
-    print("[Epoch %d/%d] [D loss: %f] [G loss: %f] [ACC1 : %d/%d=%f] [ACC2 : %d/%d=%f]" % (epoch+1, opt.n_epochs, d_loss.item(), (g_loss).item(), temp1, ben_x.shape[0], acc1,temp2, mal_x.shape[0], acc2))
+    if (epoch%30==0): print("[Epoch %d/%d] [D loss: %f] [G loss: %f] [ACC1 : %d/%d=%f] [ACC2 : %d/%d=%f]" % (epoch+1, opt.n_epochs, d_loss.item(), (g_loss).item(), temp1, ben_x.shape[0], acc1,temp2, mal_x.shape[0], acc2))
     
     alpha=int(opt.alpha*100)
     
@@ -232,14 +232,14 @@ for epoch in range(opt.n_epochs):
         with open('./save_model/{}_{}_{}_model.pkl'.format(args.dataset,args.model,opt.defense), 'rb') as f: net = pickle.load(f)
     else:
         with open('./save_model/{}_{}_{}_alpha_{}_model.pkl'.format(args.dataset,args.model,opt.defense,alpha), 'rb') as f: net = pickle.load(f)
-    
+    net=net.to('cpu')
     log_probs=net(gen_z)
     #print(log_probs[:3])
     result=np.argmax(log_probs.detach().numpy(),axis=1)
     
     result[result!=0]=1
     
-    print("dnn acc is",np.mean(result))
+    if (epoch%30==0): print("dnn acc is",np.mean(result))
     
     acc_plot.append(np.mean(result))
     
@@ -250,7 +250,7 @@ for epoch in range(opt.n_epochs):
     #print(np.sum(idx))
     result=np.mean(result)
     rmse_plot.append(result)
-    print(result)
+    if (epoch%30==0): print(result)
     #if result<0.3: pause=1
     #if result<0.08: break
     
@@ -264,9 +264,9 @@ if opt.save_model==1:
         np.save('./gan_dataset/save/acc_{}_{}_alpha_{}.npy'.format(args.dataset, args.defense,alpha),arr=acc_plot)
         np.save('./gan_dataset/save/rmse_{}_{}_alpha_{}.npy'.format(args.dataset,args.defense,alpha),arr=rmse_plot)
         
-print(gen_z[:,:6])
+# print(gen_z[:,:6])
 ori_z=net.unnorm(gen_z)
-print("ori gen_z is ",ori_z[:,:6])
+# print("ori gen_z is ",ori_z[:,:6])
 np.save(file="./gan_dataset/malicious1.npy",arr=gen_z.detach().numpy())
 
 end_time=time.time()
